@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript Runtime and Async</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Task Runner</h1>
+    <p class="lead">Closures, Promises, async/await and the Event Loop in one small app.</p>
+
+    <section>
+      <h2>Tasks</h2>
+      <ul id="tasks" class="tasks"></ul>
+      <div class="actions">
+        <button id="run-all" class="primary">Run All Tasks</button>
+        <button id="compare">Compare sequential and concurrent</button>
+      </div>
+      <p id="summary" class="summary" aria-live="polite">Nothing has run yet.</p>
+    </section>
+
+    <section>
+      <h2>Sequential vs concurrent</h2>
+      <div id="compare-result" class="compare">Press "Compare" to run all tasks twice and measure the time.</div>
+      <p class="note">
+        Sequential: each <code>await task.run()</code> waits for the previous task, so the total time is the
+        <b>sum</b> of all task times. Concurrent: <code>Promise.allSettled</code> starts every task at once and
+        the timers wait in parallel, so the total time is about the <b>slowest single task</b>.
+      </p>
+    </section>
+
+    <section>
+      <h2>Event Loop demo</h2>
+      <p class="note">The expected output was written before the demo was run. Press the button to compare it with the real output.</p>
+      <button id="demo" class="primary">Run Event Loop Demo</button>
+      <div class="columns">
+        <div><h3>Expected</h3><ol id="expected" class="console"></ol></div>
+        <div><h3>Actual</h3><ol id="actual" class="console"></ol></div>
+      </div>
+      <p id="demo-verdict" class="summary"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
