@@ -6,8 +6,8 @@ interface ContactProps {
 
 export default function Contact({ items }: ContactProps) {
   return (
-    <section className="section" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
+    <section aria-labelledby="contact-title">
+      <h3 id="contact-title">Contact</h3>
       <dl className="contacts">
         {items.map(({ label, value, href }) => (
           <div key={label}>

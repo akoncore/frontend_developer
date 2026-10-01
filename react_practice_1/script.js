@@ -1,11 +1,11 @@
 "use strict";
 
-/* ---------- Helpers ---------- */
+/*Helpers */
 const $ = (id) => document.getElementById(id);
 const rand = (min, max) => Math.floor(min + Math.random() * (max - min + 1));
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-/* ---------- 1. Closure: createTask ---------- */
+/*  1. Closure: createTask */
 function createTask(name, onChange = () => {}) {
   let count = 0;          // private
   let status = "Idle";    // private
@@ -40,7 +40,7 @@ function createTask(name, onChange = () => {}) {
   return { name, run, getCount: () => count, reset };
 }
 
-/* ---------- 2. Build the UI for tasks ---------- */
+/* 2. Build the UI for tasks  */
 const list = $("tasks");
 const tasks = ["Load Users", "Load Posts", "Load Comments"].map((name) => {
   const li = document.createElement("li");
@@ -66,18 +66,17 @@ const tasks = ["Load Users", "Load Posts", "Load Comments"].map((name) => {
 const allButtons = () => document.querySelectorAll("button");
 const setBusy = (busy) => allButtons().forEach((b) => (b.disabled = busy));
 
-/* ---------- 3. Run All: concurrent, waits for every task ---------- */
+/* 3. Run All: concurrent, waits for every task */
 async function runAll() {
   setBusy(true);
   $("summary").textContent = "Running all tasks...";
-  // allSettled never rejects: it waits until EVERY promise is completed or failed
   const results = await Promise.allSettled(tasks.map((t) => t.run()));
   const failed = results.filter((r) => r.status === "rejected").length;
   $("summary").textContent = `All tasks finished (${results.length - failed} completed, ${failed} failed)`;
   setBusy(false);
 }
 
-/* ---------- 4. Sequential vs concurrent ---------- */
+/* 4. Sequential vs concurrent  */
 async function compare() {
   setBusy(true);
   $("compare-result").textContent = "Measuring...";

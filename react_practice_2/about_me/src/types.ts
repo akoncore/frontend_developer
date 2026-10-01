@@ -14,5 +14,5 @@ export interface AboutData {
 export interface ContactItem {
   label: string;
   value: string;
-  href?: string; // сілтеме болмаса, жай мәтін көрсетіледі
+  href?: string;
 }
