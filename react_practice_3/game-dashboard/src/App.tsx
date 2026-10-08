@@ -15,12 +15,9 @@ const initialCharacters: Character[] = [
 ];
 
 export default function App() {
-  // PARENT STATE: the collection, filters and ordering live here.
-  // Any setState below makes App re-render, and by default all its children re-render too.
   const [characters, setCharacters] = useState<Character[]>(initialCharacters);
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("All");
   const [roleFilter, setRoleFilter] = useState<RoleFilter>("All");
-  // Counter used only to hand out unique ids (never reused, so keys stay stable).
   const [nextId, setNextId] = useState(5);
 
   console.log("[render] App (parent state changed or App re-rendered)");
@@ -39,9 +36,6 @@ export default function App() {
   // Immutable reverse: copy first, because reverse() mutates the array it is called on.
   const reverseList = () => setCharacters((prev) => [...prev].reverse());
 
-  // Filtering creates a derived list; the real data stays untouched.
-  // Cards that disappear are UNMOUNTED (local state lost); cards that stay keep their state
-  // because their key (character.id) is unchanged.
   const visible = characters.filter(
     (c) =>
       (statusFilter === "All" || c.status === statusFilter) &&
@@ -51,7 +45,6 @@ export default function App() {
   return (
     <div className="app">
       <DashboardHeader total={characters.length} />
-      <StatsPanel characters={characters} />
       <div className="layout">
         <aside className="sidebar">
           <CharacterForm onAdd={addCharacter} />

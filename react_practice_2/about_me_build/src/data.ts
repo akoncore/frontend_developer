@@ -14,8 +14,6 @@ export const profile: Profile = {
   tagline: "Developer · Learner · Dreamer",
   intro:
     "I'm a student and a passionate developer who loves building useful things, solving problems and constantly learning new technologies. I believe consistency and curiosity can lead to great results.",
-  // Replace this file with your own photo, same name and path:
-  // public/images/profile.jpg
   photo: "/images/profile1.jpg",
   photoAlt: "Portrait of Akon Abdresh",
   handwrittenNote: "Better than yesterday",

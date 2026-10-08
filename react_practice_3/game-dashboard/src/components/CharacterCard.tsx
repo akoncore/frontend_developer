@@ -11,8 +11,6 @@ type Equipment = "None" | "Iron set" | "Arcane set" | "Shadow set";
 const EQUIPMENT: Equipment[] = ["None", "Iron set", "Arcane set", "Shadow set"];
 
 export default function CharacterCard({ character, onRemove, onStatusChange }: Props) {
-  // LOCAL STATE: owned by this card instance only. React ties it to the card's
-  // identity (position in the tree + key), not to the character data.
   const [equipment, setEquipment] = useState<Equipment>("None");
   const [favorite, setFavorite] = useState(false);
 
@@ -25,41 +23,131 @@ export default function CharacterCard({ character, onRemove, onStatusChange }: P
   };
 
   return (
-    <article className={`card role-${character.role.toLowerCase()}`}>
-      <div className="card-top">
-        <h3>{favorite && <span aria-label="Favorite">★ </span>}{character.name}</h3>
-        <button type="button" className="icon-btn" onClick={() => onRemove(character.id)} aria-label={`Remove ${character.name}`}>×</button>
+    <article className={`character-card role-${character.role.toLowerCase()}`}>
+    <div className="character-card-header">
+      <div className="character-avatar">
+        {character.name.charAt(0).toUpperCase()}
       </div>
-      <div className="badges">
-        <span className="badge role">{character.role}</span>
-        <span className={`badge status-${character.status.toLowerCase()}`}>{character.status}</span>
-      </div>
-      <p className="meta">Level {character.level}, {character.xp} XP</p>
 
+      <div className="character-title">
+        <div className="character-name-row">
+          <h3>{character.name}</h3>
+
+          {favorite && (
+            <span className="favorite-star" aria-label="Favorite">
+              ★
+            </span>
+          )}
+        </div>
+
+        <span className="character-id">
+          ID #{character.id}
+        </span>
+      </div>
+
+      <button
+        type="button"
+        className="remove-btn"
+        onClick={() => onRemove(character.id)}
+        aria-label={`Remove ${character.name}`}
+      >
+        ×
+      </button>
+    </div>
+
+    <div className="character-info">
+      <div className="info-item">
+        <span className="info-label">ROLE</span>
+        <span className="badge role-badge">
+          {character.role}
+        </span>
+      </div>
+
+      <div className="info-item">
+        <span className="info-label">STATUS</span>
+        <span className={`badge status-${character.status.toLowerCase()}`}>
+          {character.status}
+        </span>
+      </div>
+
+      <div className="info-item">
+        <span className="info-label">LEVEL</span>
+        <strong>{character.level}</strong>
+      </div>
+
+      <div className="info-item">
+        <span className="info-label">XP</span>
+        <strong>{character.xp}</strong>
+      </div>
+    </div>
+
+    <div className="character-controls">
       <label>
-        Status
-        <select value={character.status} onChange={(e) => onStatusChange(character.id, e.target.value as Status)}>
-          {STATUSES.map((s) => (
-            <option key={s} value={s}>{s}</option>
+        <span>Status</span>
+
+        <select
+          value={character.status}
+          onChange={(e) =>
+            onStatusChange(
+              character.id,
+              e.target.value as Status
+            )
+          }
+        >
+          {STATUSES.map((status) => (
+            <option key={status} value={status}>
+              {status}
+            </option>
           ))}
         </select>
       </label>
 
       <label>
-        Equipment (local)
-        <select value={equipment} onChange={(e) => setEquipment(e.target.value as Equipment)}>
+        <span>Equipment</span>
+
+        <select
+          value={equipment}
+          onChange={(e) =>
+            setEquipment(e.target.value as Equipment)
+          }
+        >
           {EQUIPMENT.map((eq) => (
-            <option key={eq} value={eq}>{eq}</option>
+            <option key={eq} value={eq}>
+              {eq}
+            </option>
           ))}
         </select>
       </label>
+    </div>
 
-      <div className="card-actions">
-        <button type="button" className={`btn ${favorite ? "primary" : ""}`} aria-pressed={favorite} onClick={() => setFavorite((f) => !f)}>
-          {favorite ? "Favorited" : "Favorite"}
-        </button>
-        <button type="button" className="btn" onClick={reset}>Reset local state</button>
+    <div className="equipment-preview">
+      <span className="equipment-icon">✦</span>
+
+      <div>
+        <span>Current equipment</span>
+        <strong>{equipment}</strong>
       </div>
-    </article>
+    </div>
+
+    <div className="card-actions">
+      <button
+        type="button"
+        className={`btn favorite-btn ${favorite ? "primary" : ""}`}
+        aria-pressed={favorite}
+        onClick={() => setFavorite((f) => !f)}
+      >
+        <span>{favorite ? "★" : "☆"}</span>
+        {favorite ? "Favorited" : "Add to favorites"}
+      </button>
+
+      <button
+        type="button"
+        className="btn reset-btn"
+        onClick={reset}
+      >
+        Reset
+      </button>
+    </div>
+  </article>
   );
 }
