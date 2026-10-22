@@ -1,0 +1,126 @@
+import { useCallback } from "react";
+import { Link, useParams } from "react-router-dom";
+import {
+  ArrowLeft,
+  CalendarDays,
+  Scale,
+  Heart,
+  Palette,
+  ShieldCheck,
+  NotepadText,
+} from "lucide-react";
+import { api } from "../api";
+import { useApiList } from "../hooks";
+import PetAvatar from "../components/PetAvatar";
+import StatusView from "../components/StatusView";
+export default function PetDetail() {
+  const { id } = useParams();
+  const load = useCallback((signal) => api.pet(id, signal), [id]);
+  const { data, loading, error, refresh } = useApiList(load);
+  const pet = !loading && !error && data && !Array.isArray(data) ? data : null;
+  return (
+    <>
+      <Link className="back-link" to="/pets">
+        <ArrowLeft size={17} /> Back to my pets
+      </Link>
+      {loading ? (
+        <StatusView type="loading" />
+      ) : error ? (
+        <StatusView
+          type="error"
+          description={error}
+          action={
+            <button className="btn btn-primary" onClick={refresh}>
+              Retry
+            </button>
+          }
+        />
+      ) : (
+        pet && (
+          <>
+            <div className="detail-hero">
+              <PetAvatar pet={pet} size="giant" />
+              <div>
+                <span className="eyebrow">YOUR LOVELY COMPANION</span>
+                <h1>
+                  {pet.name} <span>♡</span>
+                </h1>
+                <p>
+                  {pet.breed || pet.species} · {pet.species}
+                </p>
+                <span className="pet-label">{pet.gender || "unknown"}</span>
+              </div>
+            </div>
+            <div className="detail-grid">
+              <div className="panel">
+                <div className="panel-heading">
+                  <div>
+                    <span className="eyebrow">GET TO KNOW ME</span>
+                    <h2>Pet information</h2>
+                  </div>
+                </div>
+                <div className="info-grid">
+                  <div className="info-item">
+                    <CalendarDays />
+                    <span>
+                      <small>Birthday</small>
+                      <b>{pet.date_of_birth || "Not set"}</b>
+                    </span>
+                  </div>
+                  <div className="info-item">
+                    <Scale />
+                    <span>
+                      <small>Weight</small>
+                      <b>{pet.weight_kg ? `${pet.weight_kg} kg` : "Not set"}</b>
+                    </span>
+                  </div>
+                  <div className="info-item">
+                    <Palette />
+                    <span>
+                      <small>Coat color</small>
+                      <b>{pet.color || "Not set"}</b>
+                    </span>
+                  </div>
+                  <div className="info-item">
+                    <Heart />
+                    <span>
+                      <small>Size</small>
+                      <b className="capitalize">{pet.size || "Unknown"}</b>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="panel">
+                <div className="panel-heading">
+                  <div>
+                    <span className="eyebrow">HEALTH & HAPPINESS</span>
+                    <h2>Care notes</h2>
+                  </div>
+                </div>
+                <div className="note-block">
+                  <ShieldCheck size={22} />
+                  <div>
+                    <h3>Allergies</h3>
+                    <p>{pet.allergies || "No allergies recorded."}</p>
+                  </div>
+                </div>
+                <div className="note-block">
+                  <NotepadText size={22} />
+                  <div>
+                    <h3>Additional notes</h3>
+                    <p>
+                      {pet.notes || "No notes yet. Stay happy and healthy!"}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <Link className="btn btn-primary" to="/appointments">
+              Book a visit for {pet.name} →
+            </Link>
+          </>
+        )
+      )}
+    </>
+  );
+}

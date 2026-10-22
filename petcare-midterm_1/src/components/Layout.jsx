@@ -1,0 +1,110 @@
+import { NavLink, Outlet, Link } from "react-router-dom";
+import {
+  LayoutDashboard,
+  PawPrint,
+  Hospital,
+  HeartPulse,
+  CalendarDays,
+  Menu,
+  X,
+  Leaf,
+  ArrowUpRight,
+} from "lucide-react";
+import { useState } from "react";
+import { isDemo } from "../api";
+const nav = [
+  { to: "/", icon: LayoutDashboard, label: "Overview", end: true },
+  { to: "/pets", icon: PawPrint, label: "My pets" },
+  { to: "/clinics", icon: Hospital, label: "Clinics" },
+  { to: "/services", icon: HeartPulse, label: "Services" },
+  { to: "/appointments", icon: CalendarDays, label: "Appointments" },
+];
+export default function Layout() {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="app-shell">
+      <aside className={`sidebar ${open ? "sidebar-open" : ""}`}>
+        <Link to="/" className="brand" onClick={() => setOpen(false)}>
+          <div className="brand-mark">
+            <PawPrint size={24} strokeWidth={2.6} />
+          </div>
+          <span>
+            petcare<span className="brand-light">center</span>
+            <small>CARE THAT FEELS LIKE HOME</small>
+          </span>
+        </Link>
+        <div className="sidebar-label">YOUR SPACE</div>
+        <nav className="sidebar-nav">
+          {nav.map(({ to, icon: Icon, label, end }) => (
+            <NavLink
+              key={to}
+              to={to}
+              end={end}
+              onClick={() => setOpen(false)}
+              className={({ isActive }) =>
+                `nav-link ${isActive ? "active" : ""}`
+              }
+            >
+              <Icon size={19} />
+              <span>{label}</span>
+            </NavLink>
+          ))}
+        </nav>
+        <div className="sidebar-bottom">
+          <div className="sidebar-promo">
+            <div className="promo-leaves">
+              <Leaf size={27} />
+            </div>
+            <b>A happier pet starts here.</b>
+            <p>Good care, great moments, every day.</p>
+            <Link to="/appointments" onClick={() => setOpen(false)}>
+              Book a visit <ArrowUpRight size={14} />
+            </Link>
+          </div>
+          <div className="sidebar-profile">
+            <span className="profile-avatar">PC</span>
+            <div>
+              <b>Pet lover</b>
+              <small>{isDemo ? "Demo workspace" : "Connected workspace"}</small>
+            </div>
+            <span className="online-dot" />
+          </div>
+        </div>
+      </aside>
+      {open && (
+        <button
+          className="mobile-overlay"
+          aria-label="Close menu"
+          onClick={() => setOpen(false)}
+        />
+      )}
+      <div className="main-area">
+        <header className="topbar">
+          <button
+            className="mobile-menu"
+            onClick={() => setOpen(!open)}
+            aria-label={open ? "Close menu" : "Open menu"}
+          >
+            {open ? <X /> : <Menu />}
+          </button>
+          <div className="topbar-breadcrumb">
+            Your space <span>/</span> <b>PetCareCenter</b>
+          </div>
+          <div className="topbar-right">
+            <span className="demo-indicator">
+              <i /> {isDemo ? "Demo mode" : "Live API"}
+            </span>
+            <span className="topbar-avatar">PC</span>
+          </div>
+        </header>
+        <main className="content">
+          <Outlet />
+        </main>
+        <footer className="footer">
+          Made with <span>♥</span> for our four-legged friends{" "}
+          <span className="footer-right">PetCareCenter · 2026</span>
+        </footer>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,325 @@
+import { useCallback, useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import { CalendarDays, Plus, X, Clock3, MapPin } from "lucide-react";
+import { api } from "../api";
+import { useApiList } from "../hooks";
+import { useToast } from "../context/ToastContext";
+import SectionTitle from "../components/SectionTitle";
+import StatusView from "../components/StatusView";
+import PetAvatar from "../components/PetAvatar";
+export default function Appointments() {
+  const loadPets = useCallback((signal) => api.pets(signal), []),
+    loadClinics = useCallback((signal) => api.clinics(signal), []),
+    loadServices = useCallback((signal) => api.services(signal), []),
+    loadAppointments = useCallback((signal) => api.appointments(signal), []);
+  const pets = useApiList(loadPets),
+    clinics = useApiList(loadClinics),
+    services = useApiList(loadServices),
+    appointments = useApiList(loadAppointments);
+  const [open, setOpen] = useState(false),
+    [status, setStatus] = useState("all"),
+    [form, setForm] = useState({
+      pet: "",
+      clinic: "",
+      service: "",
+      starts_at: "",
+    }),
+    [busy, setBusy] = useState(false),
+    [formError, setFormError] = useState("");
+  const notify = useToast();
+  const availableServices = services.data.filter(
+    (s) => String(s.clinic) === String(form.clinic) && s.is_active,
+  );
+  const merged = useMemo(
+    () =>
+      appointments.data
+        .filter((a) => status === "all" || a.status === status)
+        .sort((a, b) => new Date(a.starts_at) - new Date(b.starts_at)),
+    [appointments.data, status],
+  );
+  const anyLoading =
+    pets.loading || clinics.loading || services.loading || appointments.loading;
+  const error =
+    pets.error || clinics.error || services.error || appointments.error;
+  function change(e) {
+    const { name, value } = e.target;
+    setForm((f) => ({
+      ...f,
+      [name]: value,
+      ...(name === "clinic" ? { service: "" } : {}),
+    }));
+  }
+  async function submit(e) {
+    e.preventDefault();
+    setFormError("");
+    setBusy(true);
+    try {
+      if (!form.pet || !form.clinic || !form.service || !form.starts_at)
+        throw Error("Complete all fields to book your appointment.");
+      if (new Date(form.starts_at) <= new Date())
+        throw Error("Please select a future appointment time.");
+      await api.addAppointment({
+        ...form,
+        starts_at: new Date(form.starts_at).toISOString(),
+        clinic: Number(form.clinic),
+        service: Number(form.service),
+      });
+      await appointments.refresh();
+      setOpen(false);
+      setForm({ pet: "", clinic: "", service: "", starts_at: "" });
+      notify("Your appointment has been booked!");
+    } catch (err) {
+      setFormError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  }
+  async function cancel(id) {
+    if (!window.confirm("Cancel this appointment?")) return;
+    try {
+      await api.cancelAppointment(id);
+      appointments.refresh();
+      notify("Appointment cancelled.");
+    } catch (err) {
+      notify(err.message, "error");
+    }
+  }
+  function newBooking() {
+    setForm({ pet: "", clinic: "", service: "", starts_at: "" });
+    setFormError("");
+    setOpen(true);
+  }
+  return (
+    <>
+      <SectionTitle
+        eyebrow="GOOD HEALTH, GREAT DAYS"
+        title="Appointments"
+        description="Your pet's care schedule, nicely organized."
+        action={
+          <button className="btn btn-primary" onClick={newBooking}>
+            <Plus size={18} /> Book appointment
+          </button>
+        }
+      />
+      <div className="appointment-banner">
+        <div>
+          <span className="eyebrow">HERE FOR YOU & YOUR PET</span>
+          <h2>A little care goes a long way.</h2>
+          <p>Schedule a visit with one of our trusted veterinary partners.</p>
+        </div>
+        <span className="banner-heart">♡</span>
+      </div>
+      <div className="appointment-controls">
+        <h2>Your visits</h2>
+        <div className="tabs">
+          {["all", "booked", "completed", "cancelled"].map((s) => (
+            <button
+              key={s}
+              className={status === s ? "active" : ""}
+              onClick={() => setStatus(s)}
+            >
+              {s === "all" ? "All visits" : s}
+            </button>
+          ))}
+        </div>
+      </div>
+      {anyLoading ? (
+        <StatusView type="loading" />
+      ) : error ? (
+        <StatusView
+          type="error"
+          description={error}
+          action={
+            <button
+              className="btn btn-primary"
+              onClick={() => {
+                pets.refresh();
+                clinics.refresh();
+                services.refresh();
+                appointments.refresh();
+              }}
+            >
+              Retry
+            </button>
+          }
+        />
+      ) : merged.length === 0 ? (
+        <StatusView
+          title="No visits in this view"
+          description="New appointments will appear here when you book them."
+          action={
+            <button className="btn btn-primary" onClick={newBooking}>
+              Book a visit
+            </button>
+          }
+        />
+      ) : (
+        <div className="booking-list">
+          {merged.map((a) => {
+            const p = pets.data.find((p) => String(p.id) === String(a.pet)),
+              c = clinics.data.find((c) => String(c.id) === String(a.clinic)),
+              s = services.data.find((s) => String(s.id) === String(a.service));
+            return (
+              <article key={a.id} className="booking-card">
+                <div className="booking-date">
+                  <b>
+                    {new Date(a.starts_at).toLocaleDateString("en-US", {
+                      day: "2-digit",
+                    })}
+                  </b>
+                  <small>
+                    {new Date(a.starts_at).toLocaleDateString("en-US", {
+                      month: "short",
+                      year: "numeric",
+                    })}
+                  </small>
+                </div>
+                <PetAvatar pet={p || { species: "dog" }} />
+                <div className="booking-summary">
+                  <b>{s?.name || `Service #${a.service}`}</b>
+                  <p>
+                    {p?.name || "Your pet"} · {c?.name || "Veterinary clinic"}
+                  </p>
+                  <span>
+                    <Clock3 size={14} />{" "}
+                    {new Date(a.starts_at).toLocaleString("en-US", {
+                      weekday: "short",
+                      hour: "numeric",
+                      minute: "2-digit",
+                    })}
+                  </span>
+                </div>
+                <div className="booking-actions">
+                  <span className={`booking-status ${a.status}`}>
+                    {a.status}
+                  </span>
+                  {a.status === "booked" && (
+                    <button
+                      onClick={() => cancel(a.id)}
+                      className="cancel-action"
+                    >
+                      Cancel visit
+                    </button>
+                  )}
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      )}
+      {open && (
+        <div className="modal-backdrop" onClick={() => setOpen(false)}>
+          <div
+            className="modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="booking-title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="modal-heading">
+              <div>
+                <span className="eyebrow">A HEALTHY LITTLE STEP</span>
+                <h2 id="booking-title">Book an appointment</h2>
+              </div>
+              <button
+                className="modal-close"
+                onClick={() => setOpen(false)}
+                aria-label="Close"
+              >
+                <X />
+              </button>
+            </div>
+            {formError && (
+              <div className="form-error" role="alert">
+                {formError}
+              </div>
+            )}
+            {pets.data.length === 0 ? (
+              <div className="empty-booking">
+                <p>Add a pet before booking an appointment.</p>
+                <Link className="btn btn-primary" to="/pets/new">
+                  Add a pet
+                </Link>
+              </div>
+            ) : (
+              <form onSubmit={submit} className="modal-form">
+                <label className="field">
+                  Select your pet
+                  <select
+                    required
+                    name="pet"
+                    value={form.pet}
+                    onChange={change}
+                  >
+                    <option value="">Choose a pet...</option>
+                    {pets.data.map((p) => (
+                      <option value={p.id} key={p.id}>
+                        {p.name} ({p.species})
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="field">
+                  Choose clinic
+                  <select
+                    required
+                    name="clinic"
+                    value={form.clinic}
+                    onChange={change}
+                  >
+                    <option value="">Choose a clinic...</option>
+                    {clinics.data
+                      .filter((c) => c.is_active)
+                      .map((c) => (
+                        <option key={c.id} value={c.id}>
+                          {c.name}
+                        </option>
+                      ))}
+                  </select>
+                </label>
+                <label className="field">
+                  Service
+                  <select
+                    required
+                    disabled={!form.clinic}
+                    name="service"
+                    value={form.service}
+                    onChange={change}
+                  >
+                    <option value="">Choose a service...</option>
+                    {availableServices.map((s) => (
+                      <option key={s.id} value={s.id}>
+                        {s.name} — {Number(s.price).toLocaleString()} ₸
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <label className="field">
+                  Date and time
+                  <input
+                    required
+                    type="datetime-local"
+                    name="starts_at"
+                    min={new Date(Date.now() + 60000)
+                      .toISOString()
+                      .slice(0, 16)}
+                    value={form.starts_at}
+                    onChange={change}
+                  />
+                </label>
+                <button
+                  className="btn btn-primary form-submit"
+                  type="submit"
+                  disabled={busy}
+                >
+                  {busy ? "Booking..." : "Confirm appointment"}{" "}
+                  <CalendarDays size={18} />
+                </button>
+              </form>
+            )}
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
