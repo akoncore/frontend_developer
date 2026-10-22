@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';import StatusView from '../components/StatusView';export default function NotFound(){return <StatusView title="Oops, this page wandered off!" description="Even the most curious paws get lost sometimes." action={<Link className="btn btn-primary" to="/">Back home</Link>}/>}

@@ -1,0 +1,28 @@
+const names = ['Milo','Luna','Bella','Charlie','Coco','Max','Daisy','Rocky','Nala','Teddy','Buddy','Lucy','Oliver','Ruby','Leo','Mochi','Simba','Peanut','Ollie','Rosie','Archie','Willow','Poppy','Finn'];
+const species = ['dog','cat','rabbit','bird'];
+const breeds = {dog:['Golden Retriever','Corgi','Shiba Inu','Beagle','Labrador','Poodle'],cat:['British Shorthair','Ragdoll','Siamese','Maine Coon','Tabby'],rabbit:['Holland Lop','Mini Rex'],bird:['Budgerigar','Cockatiel']};
+const colors=['Honey','Cream','White','Brown','Black','Gray','Orange'];
+const n=(i,s)=>s[i%s.length];
+export const seedPets=Array.from({length:120},(_,i)=>{
+  const kind=n(Math.floor(i*7/3),species);
+  return {id:`demo-pet-${i+1}`,owner:"demo-user-1",name:n(i,names),species:kind,breed:n(i*3,breeds[kind]),gender:i%2?'female':'male',size:kind==='dog'?(i%3===0?'large':'medium'):'small',date_of_birth:`${2018+i%8}-${String(1+i%12).padStart(2,'0')}-${String(1+i%27).padStart(2,'0')}`,weight_kg:Number((kind==='dog'?8+(i%20):kind==='cat'?2+(i%5):0.6+(i%3)*0.3).toFixed(1)),color:n(i,colors),allergies:i%7===0?'Sensitive to certain foods':'',notes:i%6===0?'Very friendly and loves attention.':'',photo:null,clinic:null,created_at:new Date(2025, i%12,1+i%27).toISOString(),updated_at:new Date(2025, i%12,1+i%27).toISOString()};
+});
+export const clinics=[
+{id:1,name:'GreenPaws Veterinary',city:'Almaty',address:'Abay Avenue, 52',description:'Modern veterinary care with a gentle, personal touch.',opening_hours:'Mon–Sat · 9:00–19:00',is_active:true,accent:'leaf',emoji:'🏥'},
+{id:2,name:'The Happy Tail Clinic',city:'Almaty',address:'Dostyk Avenue, 110',description:'A friendly neighborhood clinic dedicated to animal wellness.',opening_hours:'Every day · 9:00–21:00',is_active:true,accent:'mint',emoji:'🐕'},
+{id:3,name:'Little Paws Animal Hospital',city:'Astana',address:'Mangilik El, 35',description:'Experienced veterinary professionals, big hearts.',opening_hours:'Mon–Sat · 8:00–20:00',is_active:true,accent:'sand',emoji:'🐈'},
+{id:4,name:'Bloom Pet Wellness',city:'Almaty',address:'Satpayev Street, 28',description:'Preventive care and everyday comfort for your companions.',opening_hours:'Mon–Fri · 10:00–19:00',is_active:true,accent:'lavender',emoji:'🌼'}
+];
+export const services=[
+{id:1,clinic:1,name:'General Health Checkup',description:'A complete nose-to-tail wellness examination.',duration_minutes:30,price:'12000.00',is_active:true,icon:'stethoscope'},
+{id:2,clinic:1,name:'Vaccination',description:'Essential vaccinations and preventative care.',duration_minutes:20,price:'8500.00',is_active:true,icon:'shield'},
+{id:3,clinic:2,name:'Dental Care',description:'Gentle cleaning for happy, healthy smiles.',duration_minutes:60,price:'18500.00',is_active:true,icon:'smile'},
+{id:4,clinic:3,name:'Grooming & Care',description:'A little pampering for your best friend.',duration_minutes:50,price:'9500.00',is_active:true,icon:'scissors'},
+{id:5,clinic:4,name:'Nutrition Consultation',description:'Personalized diet and feeding guidance.',duration_minutes:40,price:'7500.00',is_active:true,icon:'heart'},
+{id:6,clinic:2,name:'Diagnostic Screening',description:'Health assessments with experienced vets.',duration_minutes:45,price:'16000.00',is_active:true,icon:'activity'}
+];
+export const seedAppointments=[
+{id:1,pet:'demo-pet-1',clinic:1,service:1,starts_at:'2026-11-04T10:00:00',status:'booked'},
+{id:2,pet:'demo-pet-2',clinic:2,service:3,starts_at:'2026-11-08T14:30:00',status:'booked'},
+{id:3,pet:'demo-pet-3',clinic:3,service:4,starts_at:'2026-11-12T11:00:00',status:'booked'}
+];
