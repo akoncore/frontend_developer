@@ -1,96 +1,31 @@
-# PetCareCenter — React SPA Midterm
+# PetCare — React Practice 4
 
-A polished, responsive pet-care dashboard built with React, Vite and custom CSS. It is designed to match the domain and endpoint naming of the [PetCareCenter Django REST backend](https://github.com/akoncore/PetCareCenter).
+A responsive React/Vite pet dashboard using a simulated asynchronous API inspired by [leravanna/fake-api](https://github.com/leravanna/fake-api). Similar mechanics are adapted to the existing pet domain rather than copying the starter UI.
 
-## Quick start
+## Run
 
-```bash
-npm install
-cp .env.example .env   # optional (Windows: copy .env.example .env)
+```sh
+npm ci
 npm run dev
+npm run build
+node --test tests/api.test.js
 ```
 
-Open the URL printed by Vite, usually http://localhost:5173.
+## Features and implementation
 
-## Midterm features
-
-- SPA routes: Overview, Pets list, Pet details, Add Pet, Clinics, Services, Appointments.
-- 120 **initial** pets from a simulated Promise-based API; state is persisted in `localStorage`.
-- Reusable layout, pet cards, avatars, loading/error/empty views, pagination and section headings.
-- Controlled Add Pet form and appointment booking form (validation and success toast).
-- Pets list: text search, animal filter, four sort orders, pagination at 12 items/page, reset action.
-- Clinics and services search; appointment status tabs and cancellation.
-- Correct hooks: `useState`, `useEffect`, dependency arrays, AbortController and cancellation guards for stale updates, stable IDs.
-- Responsive sidebar, cards and modal on desktop/tablet/mobile.
-- No direct DOM manipulation in React components.
-
-## API modes
-
-**Demo is the default** (`VITE_API_MODE=demo`) so the static frontend works without a backend. Demo includes clinics, services, bookings, and 120 pets; additions persist across reloads in browser storage.
-
-For an already running **Django backend**, create `.env`:
-
-```dotenv
-VITE_API_MODE=real
-VITE_API_URL=http://127.0.0.1:8000/api
-```
-
-The Django backend uses DRF `TokenAuthentication` and protects every list with `IsAuthenticated`. In real mode you must provide a token in browser `localStorage` at key `petcare-auth-token` or add a login screen; otherwise API returns 401. To test via browser console after obtaining the token by POST `/api/auth/login/`:
-
-```js
-localStorage.setItem('petcare-auth-token', 'YOUR_TOKEN')
-```
-
-**Important backend limitations:** no browser CORS middleware is currently configured in the linked Django settings; production cross-origin real mode needs `django-cors-headers` and exact frontend origin allowlisting. Frontend will not silently fall back to demo if live API fails. Django's pet list returns pets visible to the logged-in user, not 120 public records. For midterm grading the standalone 120-record demo is safer unless real backend is deployed and seeded.
-
-Live endpoint mapping:
-
-| UI action | Django endpoint |
-|---|---|
-| Pets list / add | `GET/POST /api/pets/` |
-| Pet detail | `GET /api/pets/:id/` |
-| Clinics | `GET /api/clinics/` |
-| Services | `GET /api/services/` |
-| Appointment list / create | `GET/POST /api/appointments/` |
-| Cancel appointment | `POST /api/appointments/:id/cancel/` |
-| Login (API adapter prepared) | `POST /api/auth/login/` |
+- 120 synthetic initial pets. The API stores changes under `petcare-practice-4-v2` in localStorage, separately in each browser.
+- Promise requests take a random 300–1800 ms and have a 5% simulated failure chance. Configure these values in `src/api/settings.js`. Failed requests do not write data; retry buttons keep failures recoverable.
+- Create pets, select a card to asynchronously load full details, edit, remove with confirmation, and complete/reopen a checkup through the API. Removing a pet removes their related appointments.
+- Details show name, species, breed, gender, size, birthday, weight, coat color, allergies, notes, care status and updated time. Care-only fields are omitted from list summaries and loaded separately.
+- Lists and details load in useEffect. Dependencies include the selected ID and reload version where applicable. Cleanup aborts timers and guards against stale results. Rendering checks the result ID against the current route.
+- Mutations capture the selected ID, use a synchronous ref lock against duplicate/conflicting submissions, disable controls, and abort on selection change or unmount. Results only update the captured item. The API reads storage after the delay, immediately before writing, avoiding stale snapshot overwrites.
+- Loading, retryable errors, empty searches and success notifications; Reload list and Reload details buttons.
+- Search/filter, sort, then paginate with 12 records per page. Responsive existing PetCare styling is preserved.
 
 ## Deployment
 
-1. Push the **frontend** to a GitHub repository only after reviewing it.
-2. Import project on Vercel and select framework **Vite** (build command `npm run build`, output `dist`).
-3. Set `VITE_API_MODE=demo` or leave it unset. Vercel rewrites handle client-side SPA routing.
-4. Test /pets, /pets/new, /pets/:id and /appointments directly using the public URL.
+Import `akoncore/frontend_developer` into Vercel, select root directory `react_practice_4`, framework Vite, build `npm run build`, output `dist`. Leave `VITE_API_MODE` unset for the fully standalone simulated API. SPA rewrites support direct detail links. No backend is required for demo mode.
 
-Alternative: Netlify build `npm run build`, publish `dist`, and add an SPA redirect.
+## Verification
 
-## Project structure
-
-```text
-src/
-  api/          demoApi.js + real backend adapter
-  components/   UI building blocks
-  context/      reusable feedback/toast
-  data/         120-record seed + clinic/service data
-  pages/        route screens
-  hooks.js      async data and filtering hooks
-  main.jsx      render tree and routes
-  styles.css    theme, desktop and mobile CSS
-```
-
-## Defense cheat sheet
-
-- **Render tree:** BrowserRouter → ToastProvider → Routes → Layout → route page → reusable components.
-- **State location:** search/filter/page live in Pets; booking modal/form live in Appointments; toast lives in ToastProvider; fetched data lives in `useApiList`.
-- **Data flow:** the page fetches data via API, passes each pet down to PetCard/PetAvatar via props.
-- **Controlled form:** all form values come from `useState`, updated using `onChange` and object spread (immutable state).
-- **Async state:** effects fetch data, set loading and errors, and cancel stale work on unmount or dependency changes.
-- **Re-render:** setState updates search, inputs, data or filters; React re-renders and reconciles by stable pet ID.
-- **Identity:** changing pet detail route changes `id` in effect dependency; a new pet is fetched, and outdated responses cannot overwrite the new state.
-- **Filtering order:** filter/search → sort → paginate, so results and page counts stay correct.
-- **Batching/snapshots:** an event handler sees state from its current render; functional updates `v => v + 1` avoid stale-counter updates.
-- **Render vs commit:** render calculates JSX; commit applies DOM changes; effects run after render commits.
-
-## Notes
-
-This is a midterm frontend MVP, not a production medical records application. The demo dataset is synthetic. The demo represents 120 pets in a shared illustrative catalog (not 120 real pets belonging to the logged-in user). Backend authentication UI and role-based dashboards can be added after the layout is approved.
+API tests cover initial records, summary/detail separation, CRUD persistence, simultaneous field updates, cancelled writes, and simulated failures without writes. For manual race testing, quickly open one pet then another while loading; only the final selection may appear. Start a checkup action and navigate away: the pending action is cancelled. Test errors by temporarily setting errorChance to 1, then restore 0.05. Use an unmatched search to inspect the empty state.
