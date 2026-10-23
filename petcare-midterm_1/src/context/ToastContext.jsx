@@ -1,10 +1,14 @@
 import { createContext, useContext, useState } from "react";
+
 const ToastContext = createContext(() => {});
+
 export function ToastProvider({ children }) {
   const [toast, setToast] = useState(null);
+
   function notify(message, type = "success") {
     setToast({ message, type, id: Date.now() });
   }
+
   return (
     <ToastContext.Provider value={notify}>
       {children}
@@ -23,4 +27,5 @@ export function ToastProvider({ children }) {
     </ToastContext.Provider>
   );
 }
+
 export const useToast = () => useContext(ToastContext);
