@@ -57,10 +57,12 @@ Live endpoint mapping:
 
 ## Deployment
 
-1. Push the **frontend** to a GitHub repository only after reviewing it.
-2. Import project on Vercel and select framework **Vite** (build command `npm run build`, output `dist`).
+1. In Vercel, import the GitHub repository `akoncore/frontend_developer` and select branch `main`.
+2. Set **Root Directory** to `petcare-midterm_1` (the repository contains several separate apps). Select framework **Vite**, build command `npm run build`, and output directory `dist`.
 3. Set `VITE_API_MODE=demo` or leave it unset. Vercel rewrites handle client-side SPA routing.
 4. Test /pets, /pets/new, /pets/:id and /appointments directly using the public URL.
+
+The demo deployment needs no custom backend or secrets. Its 120 synthetic initial pets are bundled with the frontend; changes are saved separately in each browser's localStorage. After deploying, submit the production `https://…vercel.app` URL from Vercel's project dashboard. Subsequent pushes to `main` automatically redeploy when the GitHub integration is connected.
 
 Alternative: Netlify build `npm run build`, publish `dist`, and add an SPA redirect.
 
