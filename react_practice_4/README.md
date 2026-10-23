@@ -1,5 +1,7 @@
 # PetCare — React Practice 4
 
+Live application: [petcare-practice-4.vercel.app](https://petcare-practice-4.vercel.app/)
+
 A responsive React/Vite pet dashboard using a simulated asynchronous API inspired by [leravanna/fake-api](https://github.com/leravanna/fake-api). Similar mechanics are adapted to the existing pet domain rather than copying the starter UI.
 
 ## Run
@@ -29,3 +31,4 @@ Import `akoncore/frontend_developer` into Vercel, select root directory `react_p
 ## Verification
 
 API tests cover initial records, summary/detail separation, CRUD persistence, simultaneous field updates, cancelled writes, and simulated failures without writes. For manual race testing, quickly open one pet then another while loading; only the final selection may appear. Start a checkup action and navigate away: the pending action is cancelled. Test errors by temporarily setting errorChance to 1, then restore 0.05. Use an unmatched search to inspect the empty state.
+

@@ -1,26 +1,279 @@
-import {useEffect,useRef,useState} from 'react';
-import {Link,useNavigate,useParams} from 'react-router-dom';
-import {api} from '../api';
-import PetAvatar from '../components/PetAvatar';
-import StatusView from '../components/StatusView';
-import {useToast} from '../context/ToastContext';
-const fields={name:'Name',species:'Species',breed:'Breed',gender:'Gender',size:'Size',date_of_birth:'Birthday',weight_kg:'Weight (kg)',color:'Coat color',allergies:'Allergies',notes:'Care notes'};
-export default function PetDetail(){
- const {id}=useParams();const [result,setResult]=useState(null);const [error,setError]=useState('');const [version,setVersion]=useState(0);const [loading,setLoading]=useState(true);const [draft,setDraft]=useState(null);const [busy,setBusy]=useState(false);const [actionError,setActionError]=useState('');const [confirmRemove,setConfirmRemove]=useState(false);const operation=useRef(null);const navigate=useNavigate();const notify=useToast();
- useEffect(()=>{const controller=new AbortController();let active=true;setLoading(true);setError('');setDraft(null);setActionError('');setConfirmRemove(false);setBusy(false);
- api.pet(id,controller.signal).then(p=>{if(active)setResult(p)}).catch(e=>{if(active&&e.name!=='AbortError')setError(e.message)}).finally(()=>{if(active)setLoading(false)});
- return()=>{active=false;controller.abort();operation.current?.abort();operation.current=null}
- },[id,version]);
- // Never render the previous selection, including the render before effect cleanup.
- const pet=result?.id===id&&!loading&&!error?result:null;
- async function mutate(kind,changes){if(operation.current||!pet)return;const selectedId=id;const controller=new AbortController();operation.current=controller;setBusy(true);setActionError('');
- try{const updated=kind==='remove'?await api.removePet(selectedId,controller.signal):await api.updatePet(selectedId,changes,controller.signal);if(controller.signal.aborted||operation.current!==controller)return;
- if(kind==='remove'){notify('Pet and related appointments removed.');navigate('/pets')}else{setResult(current=>current?.id===selectedId?updated:current);setDraft(null);notify('Pet saved successfully.')}}catch(e){if(!controller.signal.aborted)setActionError(e.message)}finally{if(operation.current===controller){operation.current=null;setBusy(false)}}}
- return <><Link className="back-link" to="/pets">← Back to my pets</Link>{loading||(!pet&&!error)?<StatusView type="loading"/>:error?<StatusView type="error" description={error} action={<button className="btn btn-primary" onClick={()=>setVersion(v=>v+1)}>Retry details</button>}/>:<>
- <div className="detail-hero"><PetAvatar pet={pet} size="giant"/><div><span className="eyebrow">YOUR LOVELY COMPANION</span><h1>{pet.name} ♡</h1><p>{pet.breed} · {pet.species}</p><span className="pet-label">{pet.care_status||'Needs checkup'}</span></div></div>
- <div className="care-actions"><button className="btn btn-primary" disabled={busy} onClick={()=>{setDraft({...pet});setConfirmRemove(false)}}>Edit pet</button><button className="btn btn-secondary" disabled={busy} onClick={()=>mutate('status',{care_status:pet.care_status==='Checkup complete'?'Needs checkup':'Checkup complete'})}>{busy?'Saving…':pet.care_status==='Checkup complete'?'Reopen checkup':'Complete checkup'}</button><button className="btn btn-quiet" disabled={busy} onClick={()=>setVersion(v=>v+1)}>Reload details</button><button className="btn btn-quiet danger" disabled={busy} onClick={()=>{setConfirmRemove(true);setDraft(null)}}>Remove pet</button></div>
- {actionError&&<p className="form-error" role="alert">{actionError} Changes were not saved; please retry.</p>}
- {confirmRemove&&<div className="panel" role="alert"><p>Remove {pet.name} and their appointments? This cannot be undone.</p><div className="care-actions"><button className="btn btn-primary" disabled={busy} onClick={()=>mutate('remove')}>Confirm removal</button><button className="btn btn-quiet" disabled={busy} onClick={()=>setConfirmRemove(false)}>Keep pet</button></div></div>}
- {draft?<form className="form-card" onSubmit={e=>{e.preventDefault();mutate('edit',{...draft,weight_kg:draft.weight_kg===''?null:Number(draft.weight_kg)})}}><h2>Edit {pet.name}</h2><fieldset disabled={busy}><div className="fields">{Object.entries(fields).map(([key,label])=><label className="field" key={key}>{label}<input name={key} required={key==='name'||key==='species'} maxLength={key==='notes'?2000:200} type={key==='date_of_birth'?'date':key==='weight_kg'?'number':'text'} min={key==='weight_kg'?'0.01':undefined} step={key==='weight_kg'?'0.01':undefined} value={draft[key]??''} onChange={e=>setDraft(d=>({...d,[key]:e.target.value}))}/></label>)}</div><div className="care-actions"><button className="btn btn-primary" type="submit">{busy?'Saving…':'Save changes'}</button><button type="button" className="btn btn-quiet" onClick={()=>setDraft(null)}>Cancel editing</button></div></fieldset></form>:<div className="panel"><h2>Pet information</h2><dl className="pet-facts">{Object.entries({...fields,care_status:'Care status',updated_at:'Last updated'}).map(([key,label])=><div key={key}><dt>{label}</dt><dd>{pet[key]||'Not recorded'}</dd></div>)}</dl></div>}
- </>}</>
+import { useEffect, useRef, useState } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
+import { api } from "../api";
+import PetAvatar from "../components/PetAvatar";
+import StatusView from "../components/StatusView";
+import { useToast } from "../context/ToastContext";
+const fields = {
+  name: "Name",
+  species: "Species",
+  breed: "Breed",
+  gender: "Gender",
+  size: "Size",
+  date_of_birth: "Birthday",
+  weight_kg: "Weight (kg)",
+  color: "Coat color",
+  allergies: "Allergies",
+  notes: "Care notes",
+};
+export default function PetDetail() {
+  const { id } = useParams();
+  const [result, setResult] = useState(null);
+  const [error, setError] = useState("");
+  const [version, setVersion] = useState(0);
+  const [loading, setLoading] = useState(true);
+  const [draft, setDraft] = useState(null);
+  const [busy, setBusy] = useState(false);
+  const [actionError, setActionError] = useState("");
+  const [confirmRemove, setConfirmRemove] = useState(false);
+  const operation = useRef(null);
+  const navigate = useNavigate();
+  const notify = useToast();
+  useEffect(() => {
+    const controller = new AbortController();
+    let active = true;
+    setLoading(true);
+    setError("");
+    setDraft(null);
+    setActionError("");
+    setConfirmRemove(false);
+    setBusy(false);
+    api
+      .pet(id, controller.signal)
+      .then((p) => {
+        if (active) setResult(p);
+      })
+      .catch((e) => {
+        if (active && e.name !== "AbortError") setError(e.message);
+      })
+      .finally(() => {
+        if (active) setLoading(false);
+      });
+    return () => {
+      active = false;
+      controller.abort();
+      operation.current?.abort();
+      operation.current = null;
+    };
+  }, [id, version]);
+  // Never render the previous selection, including the render before effect cleanup.
+  const pet = result?.id === id && !loading && !error ? result : null;
+  async function mutate(kind, changes) {
+    if (operation.current || !pet) return;
+    const selectedId = id;
+    const controller = new AbortController();
+    operation.current = controller;
+    setBusy(true);
+    setActionError("");
+    try {
+      const updated =
+        kind === "remove"
+          ? await api.removePet(selectedId, controller.signal)
+          : await api.updatePet(selectedId, changes, controller.signal);
+      if (controller.signal.aborted || operation.current !== controller) return;
+      if (kind === "remove") {
+        notify("Pet and related appointments removed.");
+        navigate("/pets");
+      } else {
+        setResult((current) =>
+          current?.id === selectedId ? updated : current,
+        );
+        setDraft(null);
+        notify("Pet saved successfully.");
+      }
+    } catch (e) {
+      if (!controller.signal.aborted) setActionError(e.message);
+    } finally {
+      if (operation.current === controller) {
+        operation.current = null;
+        setBusy(false);
+      }
+    }
+  }
+  return (
+    <>
+      <Link className="back-link" to="/pets">
+        ← Back to my pets
+      </Link>
+      {loading || (!pet && !error) ? (
+        <StatusView type="loading" />
+      ) : error ? (
+        <StatusView
+          type="error"
+          description={error}
+          action={
+            <button
+              className="btn btn-primary"
+              onClick={() => setVersion((v) => v + 1)}
+            >
+              Retry details
+            </button>
+          }
+        />
+      ) : (
+        <>
+          <div className="detail-hero">
+            <PetAvatar pet={pet} size="giant" />
+            <div>
+              <span className="eyebrow">YOUR LOVELY COMPANION</span>
+              <h1>{pet.name} ♡</h1>
+              <p>
+                {pet.breed} · {pet.species}
+              </p>
+              <span className="pet-label">
+                {pet.care_status || "Needs checkup"}
+              </span>
+            </div>
+          </div>
+          <div className="care-actions">
+            <button
+              className="btn btn-primary"
+              disabled={busy}
+              onClick={() => {
+                setDraft({ ...pet });
+                setConfirmRemove(false);
+              }}
+            >
+              Edit pet
+            </button>
+            <button
+              className="btn btn-secondary"
+              disabled={busy}
+              onClick={() =>
+                mutate("status", {
+                  care_status:
+                    pet.care_status === "Checkup complete"
+                      ? "Needs checkup"
+                      : "Checkup complete",
+                })
+              }
+            >
+              {busy
+                ? "Saving…"
+                : pet.care_status === "Checkup complete"
+                  ? "Reopen checkup"
+                  : "Complete checkup"}
+            </button>
+            <button
+              className="btn btn-quiet"
+              disabled={busy}
+              onClick={() => setVersion((v) => v + 1)}
+            >
+              Reload details
+            </button>
+            <button
+              className="btn btn-quiet danger"
+              disabled={busy}
+              onClick={() => {
+                setConfirmRemove(true);
+                setDraft(null);
+              }}
+            >
+              Remove pet
+            </button>
+          </div>
+          {actionError && (
+            <p className="form-error" role="alert">
+              {actionError} Changes were not saved; please retry.
+            </p>
+          )}
+          {confirmRemove && (
+            <div className="panel" role="alert">
+              <p>
+                Remove {pet.name} and their appointments? This cannot be undone.
+              </p>
+              <div className="care-actions">
+                <button
+                  className="btn btn-primary"
+                  disabled={busy}
+                  onClick={() => mutate("remove")}
+                >
+                  Confirm removal
+                </button>
+                <button
+                  className="btn btn-quiet"
+                  disabled={busy}
+                  onClick={() => setConfirmRemove(false)}
+                >
+                  Keep pet
+                </button>
+              </div>
+            </div>
+          )}
+          {draft ? (
+            <form
+              className="form-card"
+              onSubmit={(e) => {
+                e.preventDefault();
+                mutate("edit", {
+                  ...draft,
+                  weight_kg:
+                    draft.weight_kg === "" || draft.weight_kg == null
+                      ? null
+                      : Number(draft.weight_kg),
+                });
+              }}
+            >
+              <h2>Edit {pet.name}</h2>
+              <fieldset disabled={busy}>
+                <div className="fields">
+                  {Object.entries(fields).map(([key, label]) => (
+                    <label className="field" key={key}>
+                      {label}
+                      <input
+                        name={key}
+                        required={key === "name" || key === "species"}
+                        maxLength={key === "notes" ? 2000 : 200}
+                        type={
+                          key === "date_of_birth"
+                            ? "date"
+                            : key === "weight_kg"
+                              ? "number"
+                              : "text"
+                        }
+                        min={key === "weight_kg" ? "0.01" : undefined}
+                        step={key === "weight_kg" ? "0.01" : undefined}
+                        value={draft[key] ?? ""}
+                        onChange={(e) =>
+                          setDraft((d) => ({ ...d, [key]: e.target.value }))
+                        }
+                      />
+                    </label>
+                  ))}
+                </div>
+                <div className="care-actions">
+                  <button className="btn btn-primary" type="submit">
+                    {busy ? "Saving…" : "Save changes"}
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-quiet"
+                    onClick={() => setDraft(null)}
+                  >
+                    Cancel editing
+                  </button>
+                </div>
+              </fieldset>
+            </form>
+          ) : (
+            <div className="panel">
+              <h2>Pet information</h2>
+              <dl className="pet-facts">
+                {Object.entries({
+                  ...fields,
+                  care_status: "Care status",
+                  updated_at: "Last updated",
+                }).map(([key, label]) => (
+                  <div key={key}>
+                    <dt>{label}</dt>
+                    <dd>{pet[key] || "Not recorded"}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
+        </>
+      )}
+    </>
+  );
 }
