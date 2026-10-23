@@ -1,5 +1,11 @@
 # PetCareCenter — React SPA Midterm
 
+## Live application
+
+[Open PetCareCenter](https://petcare-midterm.vercel.app/)
+
+Deployed on Vercel from `main`, root directory `petcare-midterm_1`, using the 120-record demo API.
+
 A polished, responsive pet-care dashboard built with React, Vite and custom CSS. It is designed to match the domain and endpoint naming of the [PetCareCenter Django REST backend](https://github.com/akoncore/PetCareCenter).
 
 ## Quick start
@@ -100,3 +106,4 @@ This is a midterm frontend MVP, not a production medical records application. Th
 ## Local photos
 
 Six user-supplied photographs are bundled in `src/assets/`; no remote image service is required. Clinic and service pictures are illustrative. Demo dog profiles reuse three sample dog photos; cats, rabbits and birds use species icons until a profile photo is supplied. `PetAvatar` prefers the `photo` model field and falls back to a species icon if an image fails.
+
