@@ -1,0 +1,3722 @@
+[
+  {
+    "id": 1,
+    "title": "The Quiet Future of Everyday Technology",
+    "slug": "the-quiet-future-of-everyday-technology-1",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-26T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 2,
+    "title": "Designing for Clarity and Purpose",
+    "slug": "designing-for-clarity-and-purpose-2",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-24T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 3,
+    "title": "Learning to Think Like a Developer",
+    "slug": "learning-to-think-like-a-developer-3",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-22T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 4,
+    "title": "Stories That Change How We See the World",
+    "slug": "stories-that-change-how-we-see-the-world-4",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-10-20T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 5,
+    "title": "Making Space for Deep Work",
+    "slug": "making-space-for-deep-work-5",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-10-18T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 6,
+    "title": "Building Ideas with Real Impact",
+    "slug": "building-ideas-with-real-impact-6",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-16T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 7,
+    "title": "How Digital Tools Shape Modern Life",
+    "slug": "how-digital-tools-shape-modern-life-7",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-14T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 8,
+    "title": "The Art of Thoughtful Interfaces",
+    "slug": "the-art-of-thoughtful-interfaces-8",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-12T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 9,
+    "title": "Small Decisions That Make Better Software",
+    "slug": "small-decisions-that-make-better-software-9",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-10T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 10,
+    "title": "The Creative Habits Behind Great Work",
+    "slug": "the-creative-habits-behind-great-work-10",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-10-08T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 11,
+    "title": "Rethinking Your Daily Routine",
+    "slug": "rethinking-your-daily-routine-11",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-10-06T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 12,
+    "title": "What Great Teams Do Differently",
+    "slug": "what-great-teams-do-differently-12",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-04T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 13,
+    "title": "What Makes a Platform Feel Human",
+    "slug": "what-makes-a-platform-feel-human-13",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-10-02T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 14,
+    "title": "Why Good Design Feels Effortless",
+    "slug": "why-good-design-feels-effortless-14",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-30T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 15,
+    "title": "Modern Web Development in Practice",
+    "slug": "modern-web-development-in-practice-15",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-28T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 16,
+    "title": "A Fresh Perspective on Modern Culture",
+    "slug": "a-fresh-perspective-on-modern-culture-16",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-09-26T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 17,
+    "title": "Small Habits for Meaningful Progress",
+    "slug": "small-habits-for-meaningful-progress-17",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-09-24T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 18,
+    "title": "The Mindset Behind Sustainable Growth",
+    "slug": "the-mindset-behind-sustainable-growth-18",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-22T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 19,
+    "title": "New Patterns in Connected Experiences",
+    "slug": "new-patterns-in-connected-experiences-19",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-20T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 20,
+    "title": "Finding Balance in Visual Systems",
+    "slug": "finding-balance-in-visual-systems-20",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-18T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 21,
+    "title": "The Value of Clean Architecture",
+    "slug": "the-value-of-clean-architecture-21",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-16T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 22,
+    "title": "Why Sharing Knowledge Matters",
+    "slug": "why-sharing-knowledge-matters-22",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-09-14T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 23,
+    "title": "Working Smarter Without Working More",
+    "slug": "working-smarter-without-working-more-23",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-09-12T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 24,
+    "title": "Making Better Product Decisions",
+    "slug": "making-better-product-decisions-24",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-10T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 25,
+    "title": "A Closer Look at the Digital World",
+    "slug": "a-closer-look-at-the-digital-world-25",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-08T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 26,
+    "title": "Building Better Experiences with Less",
+    "slug": "building-better-experiences-with-less-26",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-06T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 27,
+    "title": "Turning Ideas into Working Products",
+    "slug": "turning-ideas-into-working-products-27",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-09-04T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 28,
+    "title": "The Things That Inspire Us Most",
+    "slug": "the-things-that-inspire-us-most-28",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-09-02T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 29,
+    "title": "How to Stay Curious Every Day",
+    "slug": "how-to-stay-curious-every-day-29",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-08-31T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 30,
+    "title": "Lessons from Everyday Entrepreneurship",
+    "slug": "lessons-from-everyday-entrepreneurship-30",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-29T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 31,
+    "title": "The Quiet Future of Everyday Technology — Part 2",
+    "slug": "the-quiet-future-of-everyday-technology-part-2-31",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-27T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 32,
+    "title": "Designing for Clarity and Purpose — Part 2",
+    "slug": "designing-for-clarity-and-purpose-part-2-32",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-25T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 33,
+    "title": "Learning to Think Like a Developer — Part 2",
+    "slug": "learning-to-think-like-a-developer-part-2-33",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-23T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 34,
+    "title": "Stories That Change How We See the World — Part 2",
+    "slug": "stories-that-change-how-we-see-the-world-part-2-34",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-08-21T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 35,
+    "title": "Making Space for Deep Work — Part 2",
+    "slug": "making-space-for-deep-work-part-2-35",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-08-19T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 36,
+    "title": "Building Ideas with Real Impact — Part 2",
+    "slug": "building-ideas-with-real-impact-part-2-36",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-17T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 37,
+    "title": "How Digital Tools Shape Modern Life — Part 2",
+    "slug": "how-digital-tools-shape-modern-life-part-2-37",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-15T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 38,
+    "title": "The Art of Thoughtful Interfaces — Part 2",
+    "slug": "the-art-of-thoughtful-interfaces-part-2-38",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-13T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 39,
+    "title": "Small Decisions That Make Better Software — Part 2",
+    "slug": "small-decisions-that-make-better-software-part-2-39",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-11T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 40,
+    "title": "The Creative Habits Behind Great Work — Part 2",
+    "slug": "the-creative-habits-behind-great-work-part-2-40",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-08-09T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 41,
+    "title": "Rethinking Your Daily Routine — Part 2",
+    "slug": "rethinking-your-daily-routine-part-2-41",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-08-07T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 42,
+    "title": "What Great Teams Do Differently — Part 2",
+    "slug": "what-great-teams-do-differently-part-2-42",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-05T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 43,
+    "title": "What Makes a Platform Feel Human — Part 2",
+    "slug": "what-makes-a-platform-feel-human-part-2-43",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-03T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 44,
+    "title": "Why Good Design Feels Effortless — Part 2",
+    "slug": "why-good-design-feels-effortless-part-2-44",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-08-01T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 45,
+    "title": "Modern Web Development in Practice — Part 2",
+    "slug": "modern-web-development-in-practice-part-2-45",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-30T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 46,
+    "title": "A Fresh Perspective on Modern Culture — Part 2",
+    "slug": "a-fresh-perspective-on-modern-culture-part-2-46",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-07-28T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 47,
+    "title": "Small Habits for Meaningful Progress — Part 2",
+    "slug": "small-habits-for-meaningful-progress-part-2-47",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-07-26T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 48,
+    "title": "The Mindset Behind Sustainable Growth — Part 2",
+    "slug": "the-mindset-behind-sustainable-growth-part-2-48",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-24T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 49,
+    "title": "New Patterns in Connected Experiences — Part 2",
+    "slug": "new-patterns-in-connected-experiences-part-2-49",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-22T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 50,
+    "title": "Finding Balance in Visual Systems — Part 2",
+    "slug": "finding-balance-in-visual-systems-part-2-50",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-20T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 51,
+    "title": "The Value of Clean Architecture — Part 2",
+    "slug": "the-value-of-clean-architecture-part-2-51",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-18T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 52,
+    "title": "Why Sharing Knowledge Matters — Part 2",
+    "slug": "why-sharing-knowledge-matters-part-2-52",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-07-16T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 53,
+    "title": "Working Smarter Without Working More — Part 2",
+    "slug": "working-smarter-without-working-more-part-2-53",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-07-14T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 54,
+    "title": "Making Better Product Decisions — Part 2",
+    "slug": "making-better-product-decisions-part-2-54",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-12T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 55,
+    "title": "A Closer Look at the Digital World — Part 2",
+    "slug": "a-closer-look-at-the-digital-world-part-2-55",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-10T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 56,
+    "title": "Building Better Experiences with Less — Part 2",
+    "slug": "building-better-experiences-with-less-part-2-56",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-08T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 57,
+    "title": "Turning Ideas into Working Products — Part 2",
+    "slug": "turning-ideas-into-working-products-part-2-57",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-07-06T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 58,
+    "title": "The Things That Inspire Us Most — Part 2",
+    "slug": "the-things-that-inspire-us-most-part-2-58",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-07-04T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 59,
+    "title": "How to Stay Curious Every Day — Part 2",
+    "slug": "how-to-stay-curious-every-day-part-2-59",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-07-02T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 60,
+    "title": "Lessons from Everyday Entrepreneurship — Part 2",
+    "slug": "lessons-from-everyday-entrepreneurship-part-2-60",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-30T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 61,
+    "title": "The Quiet Future of Everyday Technology — Part 3",
+    "slug": "the-quiet-future-of-everyday-technology-part-3-61",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-28T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 62,
+    "title": "Designing for Clarity and Purpose — Part 3",
+    "slug": "designing-for-clarity-and-purpose-part-3-62",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-26T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 63,
+    "title": "Learning to Think Like a Developer — Part 3",
+    "slug": "learning-to-think-like-a-developer-part-3-63",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-24T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 64,
+    "title": "Stories That Change How We See the World — Part 3",
+    "slug": "stories-that-change-how-we-see-the-world-part-3-64",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-06-22T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 65,
+    "title": "Making Space for Deep Work — Part 3",
+    "slug": "making-space-for-deep-work-part-3-65",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-06-20T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 66,
+    "title": "Building Ideas with Real Impact — Part 3",
+    "slug": "building-ideas-with-real-impact-part-3-66",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-18T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 67,
+    "title": "How Digital Tools Shape Modern Life — Part 3",
+    "slug": "how-digital-tools-shape-modern-life-part-3-67",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-16T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 68,
+    "title": "The Art of Thoughtful Interfaces — Part 3",
+    "slug": "the-art-of-thoughtful-interfaces-part-3-68",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-14T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 69,
+    "title": "Small Decisions That Make Better Software — Part 3",
+    "slug": "small-decisions-that-make-better-software-part-3-69",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-12T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 70,
+    "title": "The Creative Habits Behind Great Work — Part 3",
+    "slug": "the-creative-habits-behind-great-work-part-3-70",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-06-10T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 71,
+    "title": "Rethinking Your Daily Routine — Part 3",
+    "slug": "rethinking-your-daily-routine-part-3-71",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-06-08T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 72,
+    "title": "What Great Teams Do Differently — Part 3",
+    "slug": "what-great-teams-do-differently-part-3-72",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-06T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 73,
+    "title": "What Makes a Platform Feel Human — Part 3",
+    "slug": "what-makes-a-platform-feel-human-part-3-73",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-04T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 74,
+    "title": "Why Good Design Feels Effortless — Part 3",
+    "slug": "why-good-design-feels-effortless-part-3-74",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-06-02T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 75,
+    "title": "Modern Web Development in Practice — Part 3",
+    "slug": "modern-web-development-in-practice-part-3-75",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-31T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 76,
+    "title": "A Fresh Perspective on Modern Culture — Part 3",
+    "slug": "a-fresh-perspective-on-modern-culture-part-3-76",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-05-29T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 77,
+    "title": "Small Habits for Meaningful Progress — Part 3",
+    "slug": "small-habits-for-meaningful-progress-part-3-77",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-05-27T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 78,
+    "title": "The Mindset Behind Sustainable Growth — Part 3",
+    "slug": "the-mindset-behind-sustainable-growth-part-3-78",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-25T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 79,
+    "title": "New Patterns in Connected Experiences — Part 3",
+    "slug": "new-patterns-in-connected-experiences-part-3-79",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-23T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 80,
+    "title": "Finding Balance in Visual Systems — Part 3",
+    "slug": "finding-balance-in-visual-systems-part-3-80",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-21T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 81,
+    "title": "The Value of Clean Architecture — Part 3",
+    "slug": "the-value-of-clean-architecture-part-3-81",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-19T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 82,
+    "title": "Why Sharing Knowledge Matters — Part 3",
+    "slug": "why-sharing-knowledge-matters-part-3-82",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-05-17T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 83,
+    "title": "Working Smarter Without Working More — Part 3",
+    "slug": "working-smarter-without-working-more-part-3-83",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-05-15T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 84,
+    "title": "Making Better Product Decisions — Part 3",
+    "slug": "making-better-product-decisions-part-3-84",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-13T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 85,
+    "title": "A Closer Look at the Digital World — Part 3",
+    "slug": "a-closer-look-at-the-digital-world-part-3-85",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-11T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 86,
+    "title": "Building Better Experiences with Less — Part 3",
+    "slug": "building-better-experiences-with-less-part-3-86",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-09T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 87,
+    "title": "Turning Ideas into Working Products — Part 3",
+    "slug": "turning-ideas-into-working-products-part-3-87",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-07T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 88,
+    "title": "The Things That Inspire Us Most — Part 3",
+    "slug": "the-things-that-inspire-us-most-part-3-88",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-05-05T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 89,
+    "title": "How to Stay Curious Every Day — Part 3",
+    "slug": "how-to-stay-curious-every-day-part-3-89",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-05-03T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 90,
+    "title": "Lessons from Everyday Entrepreneurship — Part 3",
+    "slug": "lessons-from-everyday-entrepreneurship-part-3-90",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-05-01T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 91,
+    "title": "The Quiet Future of Everyday Technology — Part 4",
+    "slug": "the-quiet-future-of-everyday-technology-part-4-91",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-29T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 92,
+    "title": "Designing for Clarity and Purpose — Part 4",
+    "slug": "designing-for-clarity-and-purpose-part-4-92",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-27T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 93,
+    "title": "Learning to Think Like a Developer — Part 4",
+    "slug": "learning-to-think-like-a-developer-part-4-93",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-25T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 94,
+    "title": "Stories That Change How We See the World — Part 4",
+    "slug": "stories-that-change-how-we-see-the-world-part-4-94",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-04-23T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 95,
+    "title": "Making Space for Deep Work — Part 4",
+    "slug": "making-space-for-deep-work-part-4-95",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-04-21T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 96,
+    "title": "Building Ideas with Real Impact — Part 4",
+    "slug": "building-ideas-with-real-impact-part-4-96",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-19T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 97,
+    "title": "How Digital Tools Shape Modern Life — Part 4",
+    "slug": "how-digital-tools-shape-modern-life-part-4-97",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-17T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 98,
+    "title": "The Art of Thoughtful Interfaces — Part 4",
+    "slug": "the-art-of-thoughtful-interfaces-part-4-98",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-15T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 99,
+    "title": "Small Decisions That Make Better Software — Part 4",
+    "slug": "small-decisions-that-make-better-software-part-4-99",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-13T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 100,
+    "title": "The Creative Habits Behind Great Work — Part 4",
+    "slug": "the-creative-habits-behind-great-work-part-4-100",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-04-11T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 101,
+    "title": "Rethinking Your Daily Routine — Part 4",
+    "slug": "rethinking-your-daily-routine-part-4-101",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-04-09T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 102,
+    "title": "What Great Teams Do Differently — Part 4",
+    "slug": "what-great-teams-do-differently-part-4-102",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-07T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 103,
+    "title": "What Makes a Platform Feel Human — Part 4",
+    "slug": "what-makes-a-platform-feel-human-part-4-103",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-05T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 104,
+    "title": "Why Good Design Feels Effortless — Part 4",
+    "slug": "why-good-design-feels-effortless-part-4-104",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-03T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 105,
+    "title": "Modern Web Development in Practice — Part 4",
+    "slug": "modern-web-development-in-practice-part-4-105",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-04-01T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 106,
+    "title": "A Fresh Perspective on Modern Culture — Part 4",
+    "slug": "a-fresh-perspective-on-modern-culture-part-4-106",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-03-30T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 107,
+    "title": "Small Habits for Meaningful Progress — Part 4",
+    "slug": "small-habits-for-meaningful-progress-part-4-107",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-03-28T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 108,
+    "title": "The Mindset Behind Sustainable Growth — Part 4",
+    "slug": "the-mindset-behind-sustainable-growth-part-4-108",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-26T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 109,
+    "title": "New Patterns in Connected Experiences — Part 4",
+    "slug": "new-patterns-in-connected-experiences-part-4-109",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      },
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-24T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 110,
+    "title": "Finding Balance in Visual Systems — Part 4",
+    "slug": "finding-balance-in-visual-systems-part-4-110",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 3,
+        "name": "Django",
+        "slug": "django"
+      },
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-22T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 111,
+    "title": "The Value of Clean Architecture — Part 4",
+    "slug": "the-value-of-clean-architecture-part-4-111",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 4,
+        "name": "UX",
+        "slug": "ux"
+      },
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-20T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 112,
+    "title": "Why Sharing Knowledge Matters — Part 4",
+    "slug": "why-sharing-knowledge-matters-part-4-112",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "Systems",
+        "slug": "systems"
+      },
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-03-18T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 113,
+    "title": "Working Smarter Without Working More — Part 4",
+    "slug": "working-smarter-without-working-more-part-4-113",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 4,
+      "email": "amelia@example.com",
+      "first_name": "Amelia"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "Ideas",
+        "slug": "ideas"
+      },
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-03-16T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 114,
+    "title": "Making Better Product Decisions — Part 4",
+    "slug": "making-better-product-decisions-part-4-114",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 7,
+      "email": "noah@example.com",
+      "first_name": "Noah"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "Writing",
+        "slug": "writing"
+      },
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-14T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 115,
+    "title": "A Closer Look at the Digital World — Part 4",
+    "slug": "a-closer-look-at-the-digital-world-part-4-115",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 2,
+      "email": "sarah@example.com",
+      "first_name": "Sarah"
+    },
+    "category": {
+      "id": 1,
+      "name": "Technology",
+      "slug": "technology"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "Community",
+        "slug": "community"
+      },
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-12T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 116,
+    "title": "Building Better Experiences with Less — Part 4",
+    "slug": "building-better-experiences-with-less-part-4-116",
+    "body": "The interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.",
+    "author_info": {
+      "id": 5,
+      "email": "alex@example.com",
+      "first_name": "Alex"
+    },
+    "category": {
+      "id": 2,
+      "name": "Design",
+      "slug": "design"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "Frontend",
+        "slug": "frontend"
+      },
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-10T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 117,
+    "title": "Turning Ideas into Working Products — Part 4",
+    "slug": "turning-ideas-into-working-products-part-4-117",
+    "body": "A thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.",
+    "author_info": {
+      "id": 8,
+      "email": "maya@example.com",
+      "first_name": "Maya"
+    },
+    "category": {
+      "id": 3,
+      "name": "Development",
+      "slug": "development"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "Architecture",
+        "slug": "architecture"
+      },
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-08T00:00:00Z",
+    "is_published": true
+  },
+  {
+    "id": 118,
+    "title": "The Things That Inspire Us Most — Part 4",
+    "slug": "the-things-that-inspire-us-most-part-4-118",
+    "body": "Progress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.",
+    "author_info": {
+      "id": 3,
+      "email": "daniel@example.com",
+      "first_name": "Daniel"
+    },
+    "category": {
+      "id": 4,
+      "name": "Culture",
+      "slug": "culture"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "Career",
+        "slug": "career"
+      },
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      }
+    ],
+    "status": "draft",
+    "created_at": "2026-03-06T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 119,
+    "title": "How to Stay Curious Every Day — Part 4",
+    "slug": "how-to-stay-curious-every-day-part-4-119",
+    "body": "Ultimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.\n\nEvery meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.",
+    "author_info": {
+      "id": 6,
+      "email": "emma@example.com",
+      "first_name": "Emma"
+    },
+    "category": {
+      "id": 5,
+      "name": "Productivity",
+      "slug": "productivity"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "Research",
+        "slug": "research"
+      },
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      }
+    ],
+    "status": "scheduled",
+    "created_at": "2026-03-04T00:00:00Z",
+    "is_published": false
+  },
+  {
+    "id": 120,
+    "title": "Lessons from Everyday Entrepreneurship — Part 4",
+    "slug": "lessons-from-everyday-entrepreneurship-part-4-120",
+    "body": "Every meaningful project begins with a question. We explore how simple observations can grow into strong ideas, and why patience matters when those ideas become real work.\n\nThe interesting part is rarely the first answer. It is the process of testing assumptions, listening to different perspectives, and finding the connection between what people need and what we can create.\n\nA thoughtful approach makes complex problems easier to understand. By focusing on the fundamentals and allowing room for experimentation, we can create experiences that last beyond the latest trend.\n\nProgress does not always look dramatic. Sometimes it is a small improvement, a clearer explanation, or a better question. Each step builds understanding and opens new possibilities.\n\nUltimately, useful ideas are meant to travel. Document what you learn, share what works, and leave enough space for the next person to add something new.",
+    "author_info": {
+      "id": 1,
+      "email": "akniet@example.com",
+      "first_name": "Akniet"
+    },
+    "category": {
+      "id": 6,
+      "name": "Business",
+      "slug": "business"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "React",
+        "slug": "react"
+      },
+      {
+        "id": 2,
+        "name": "Python",
+        "slug": "python"
+      }
+    ],
+    "status": "published",
+    "created_at": "2026-03-02T00:00:00Z",
+    "is_published": true
+  }
+]
