@@ -1,13 +1,17 @@
 import { FormEvent, useState } from 'react';
+import {useNavigate } from 'react-router-dom';
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
+
+  const navigator = useNavigate()
   function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setMessage(
       'Demo mode: authentication will be enabled when the Django API is connected.',
     );
+    navigator('/');
   }
   return (
     <div className="login-page container">

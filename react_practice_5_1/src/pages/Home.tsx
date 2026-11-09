@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero__visual">
-          <ImageSlot variant="hero" label="YOUR FEATURED IMAGE" />
+          <ImageSlot variant="hero" label="YOUR FEATURED IMAGE"/>
           <div className="hero-picture-note">001 — A NEW PERSPECTIVE</div>
         </div>
       </section>

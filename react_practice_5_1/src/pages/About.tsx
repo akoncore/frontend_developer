@@ -16,7 +16,7 @@ export default function About() {
         </p>
       </div>
       <div className="about-grid">
-        <ImageSlot variant="detail" label="YOUR ABOUT IMAGE" />
+        <ImageSlot variant="detail" label="YOUR ABOUT IMAGE"/>
         <div>
           <span className="eyebrow">OUR APPROACH</span>
           <h2>
