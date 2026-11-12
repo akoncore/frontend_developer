@@ -1,5 +1,7 @@
 # Folio — React homework 6: Authentication and caching
 
+Link [https://frontend-developer-s2zh.vercel.app/community](https://frontend-developer-s2zh.vercel.app/community)
+
 This project extends `react_practice_5_1` and replaces the initial auth-only
 structure in `react_practice_6_1`. The previous blog routes, 120 sample stories,
 search, category/status filters, sorting, URL query parameters, pagination,
