@@ -1,4 +1,5 @@
-import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import LogoutButton from './LogoutButton';
 const links = [
@@ -10,6 +11,9 @@ const links = [
 ];
 export default function Navbar() {
   const { user, loading } = useAuth();
+  const { pathname } = useLocation();
+  const [menuPath, setMenuPath] = useState<string | null>(null);
+  const open = menuPath === pathname;
   return (
     <header className="site-header">
       <a className="skip-link" href="#main-content">
@@ -19,12 +23,33 @@ export default function Navbar() {
         <NavLink to="/" className="wordmark">
           folio<span>.</span>
         </NavLink>
-        <nav className="nav-links" aria-label="Main navigation">
+        <button
+          className="menu-toggle"
+          aria-expanded={open}
+          aria-controls="main-navigation"
+          onClick={() => setMenuPath(open ? null : pathname)}
+        >
+          {open ? 'Close menu' : 'Menu'}
+        </button>
+        <nav
+          id="main-navigation"
+          className={`nav-links${open ? ' is-open' : ''}`}
+          aria-label="Main navigation"
+          onKeyDown={(event) => {
+            if (event.key === 'Escape') {
+              setMenuPath(null);
+              document
+                .querySelector<HTMLButtonElement>('.menu-toggle')
+                ?.focus();
+            }
+          }}
+        >
           {links.map((link) => (
             <NavLink
               key={link.to}
               to={link.to}
               end={link.end}
+              onClick={() => setMenuPath(null)}
               className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'
               }

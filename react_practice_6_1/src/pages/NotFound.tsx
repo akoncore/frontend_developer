@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom';
+import { useOnline } from '../hooks/useOnline';
+import Offline from './Offline';
 export default function NotFound() {
+  const online = useOnline();
+  if (!online) return <Offline />;
   return (
     <div className="container not-found">
       <span className="eyebrow">PAGE NOT FOUND</span>

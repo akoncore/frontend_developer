@@ -9,6 +9,7 @@ import RootLayout from './layouts/RootLayout';
 import PostsLayout from './layouts/PostsLayout';
 import Home from './pages/Home';
 import { LoadingState } from './components/States';
+import Offline from './pages/Offline';
 const About = lazy(() => import('./pages/About'));
 const Posts = lazy(() => import('./pages/Posts'));
 const PostDetails = lazy(() => import('./pages/PostDetails'));
@@ -17,6 +18,7 @@ const Login = lazy(() => import('./pages/Login'));
 const Profile = lazy(() => import('./pages/Profile'));
 const Signout = lazy(() => import('./pages/Signout'));
 const Community = lazy(() => import('./pages/Community'));
+const CommunityDetails = lazy(() => import('./pages/CommunityDetails'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const router = createBrowserRouter([
   {
@@ -38,6 +40,8 @@ const router = createBrowserRouter([
       { path: 'signup', element: <Login key="signup" signup /> },
       { path: 'signin', element: <Navigate to="/login" replace /> },
       { path: 'community', element: <Community /> },
+      { path: 'community/:id', element: <CommunityDetails /> },
+      { path: 'offline', element: <Offline /> },
       {
         element: <ProtectedRoute />,
         children: [

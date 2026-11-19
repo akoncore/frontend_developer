@@ -1,4 +1,23 @@
-# Folio — React homework 6: Authentication and caching
+# Folio — React homework: installable PWA
+
+The existing blog, Firebase authentication, dashboard, filters and Community CRUD are preserved. Folio now includes an installable manifest, a manually implemented Service Worker, offline public data, safe version updates and responsive navigation.
+
+**Подробное объяснение на русском с полным путём запроса:** [PWA_GUIDE_RU.md](PWA_GUIDE_RU.md).
+
+## PWA
+
+- `npm run build` builds the app and generates `dist/sw.js` from `pwa/sw.js` with a content-derived version and the actual built asset list.
+- The Service Worker runs in the production build (`npm run preview` or HTTPS deployment), not the development server.
+- The shell, lazy route chunks, icons and independent offline fallback are precached. Known app routes use the active version's shell.
+- Public `/data/posts.json` and JSONPlaceholder GET `/posts` / `/posts/:id` use network-first caching: 4-second timeout, 60 entries, 7-day expiration.
+- Public runtime images/fonts/styles use cache-first: 80 entries, 30-day expiration. Auth traffic, credentials, private/no-store responses and mutations are excluded from shared caches.
+- `/community/:id` reads a public API detail. `/offline` provides retry and saved-story navigation. Unknown offline navigations use `offline.html` without depending on React.
+- Saved data is labelled with its download time. On reconnection, active queries refresh. Public reads reach the Service Worker even when the browser reports offline.
+- A waiting worker is activated only by **Update now**. Old tabs reload and outdated Folio shell caches are removed; public runtime data is retained.
+- **Install Folio** invokes the browser prompt when supported, or shows browser installation instructions.
+- Run `npm run build` then `npm run test:e2e` for browser checks. Install Chromium with `npx playwright install chromium`, or use `PLAYWRIGHT_CHANNEL=msedge` with installed Edge. Tests use controlled public API responses and real Service Workers/Cache Storage.
+
+The initial visit needs a connection. Only successfully downloaded, unexpired public data can be read offline. Firebase sign-in and Community writes need a connection; no offline write queue is implemented.
 
 Link [https://frontend-developer-s2zh.vercel.app/community](https://frontend-developer-s2zh.vercel.app/community)
 
@@ -141,8 +160,7 @@ Use this directory as the deployment root. Build: `npm run build`; output:
 rebuild, and add the domain to Firebase Authorized domains.
 The included SPA rewrite preserves direct navigation and refresh.
 
-A deployment URL has not been created for this updated project. Add the final
-URL here after deployment; the previous homework's URL is not this version.
+The public application URL is listed at the top of this README. Deploy this directory (`react_practice_6_1`) with `npm run build` and output `dist`. The Vercel configuration excludes PWA files from the SPA rewrite and disables caching of `sw.js` so updates can be detected.
 
 ## References
 
