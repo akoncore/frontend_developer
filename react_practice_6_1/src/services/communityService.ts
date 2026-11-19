@@ -1,3 +1,4 @@
+import { fetchPublicJSON } from './publicData';
 export interface CommunityPost {
   id: number;
   title: string;
@@ -19,6 +20,8 @@ function edits(uid: string) {
   return value;
 }
 async function request(path: string, options?: RequestInit) {
+  if (options?.method && !navigator.onLine)
+    throw new Error('Connect to the internet to save or delete stories.');
   const response = await fetch(API_URL + path, options);
   if (!response.ok)
     throw new Error(
@@ -30,7 +33,7 @@ export async function getCommunityPosts(
   uid: string | null,
   signal?: AbortSignal,
 ): Promise<CommunityPost[]> {
-  const data: unknown = await request('', { signal });
+  const data = await fetchPublicJSON(API_URL, signal);
   if (
     !Array.isArray(data) ||
     !data.every(

@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import Offline from '../pages/Offline';
+import { OFFLINE_MESSAGE } from '../services/publicData';
 export function LoadingState({ text = 'Loading stories…' }: { text?: string }) {
   return (
     <div className="state-message" role="status">
@@ -8,6 +10,7 @@ export function LoadingState({ text = 'Loading stories…' }: { text?: string })
   );
 }
 export function ErrorState({ message }: { message: string }) {
+  if (message === OFFLINE_MESSAGE) return <Offline />;
   return (
     <div className="state-message state-error" role="alert">
       <h3>Something went wrong</h3>

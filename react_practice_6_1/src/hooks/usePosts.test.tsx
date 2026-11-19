@@ -26,7 +26,12 @@ it('does not let a slow old search replace a newer result', async () => {
         new Promise((resolve) => {
           pending.push({
             signal: options.signal as AbortSignal,
-            finish: () => resolve({ ok: true, json: async () => data }),
+            finish: () =>
+              resolve({
+                ok: true,
+                headers: new Headers(),
+                json: async () => data,
+              }),
           });
         }),
     ),

@@ -1,13 +1,12 @@
 import type { PaginatedPosts, Post, PostFilters } from '../types/blog';
+import { fetchPublicJSON } from './publicData';
 
 /** A real HTTP fetch to a local JSON fixture; deliberately no Django connection yet. */
 const DATA_URL = `${import.meta.env.BASE_URL}data/posts.json`;
 
 export async function getAllPosts(signal?: AbortSignal): Promise<Post[]> {
   if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
-  const response = await fetch(DATA_URL, { signal });
-  if (!response.ok) throw new Error(`Cannot load posts (${response.status})`);
-  const data: unknown = await response.json();
+  const data = await fetchPublicJSON(DATA_URL, signal);
   if (!Array.isArray(data)) throw new Error('Invalid posts response');
   if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
   return data as Post[];

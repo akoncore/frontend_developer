@@ -4,6 +4,7 @@ import { useAuth } from '../hooks/useAuth';
 import { useCommunity } from '../hooks/useCommunity';
 import { EmptyState, ErrorState, LoadingState } from '../components/States';
 import type { CommunityPost } from '../services/communityService';
+import { useOnline } from '../hooks/useOnline';
 export default function Community() {
   const { user } = useAuth();
   // Reset form/mutation state when the account changes.
@@ -12,13 +13,14 @@ export default function Community() {
   );
 }
 function CommunityContent({ uid }: { uid: string | null }) {
+  const online = useOnline();
   const { query, save, remove } = useCommunity(uid);
   const [editing, setEditing] = useState<number | undefined>();
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   const [page, setPage] = useState(1);
   const [deleting, setDeleting] = useState<number | null>(null);
-  const pending = save.isPending || remove.isPending;
+  const pending = save.isPending || remove.isPending || !online;
   const posts = query.data ?? [];
   const pages = Math.max(1, Math.ceil(posts.length / 6));
   const currentPage = Math.min(page, pages);
@@ -60,6 +62,11 @@ function CommunityContent({ uid }: { uid: string | null }) {
           current account in this browser session and reset on refresh.
         </p>
       </div>
+      {!online && uid && (
+        <p className="pwa-note">
+          You can read saved stories. Reconnect to publish, edit, or delete.
+        </p>
+      )}
       {uid ? (
         <form className="story-form" onSubmit={submit} aria-busy={pending}>
           <h2>{editing ? 'Edit story' : 'Write a story'}</h2>
@@ -144,6 +151,11 @@ function CommunityContent({ uid }: { uid: string | null }) {
               <span className="eyebrow">STORY {post.id}</span>
               <h2>{post.title}</h2>
               <p>{post.body}</p>
+              {post.id < 1000 && (
+                <Link className="text-link" to={`/community/${post.id}`}>
+                  Read public story
+                </Link>
+              )}
               {uid && (
                 <div className="story-actions">
                   <button

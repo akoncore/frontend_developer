@@ -10,6 +10,7 @@ afterEach(() => {
 it('refetches after create/update/delete and isolates each account', async () => {
   const fetchMock = vi.fn(async (_url: string, options?: RequestInit) => ({
     ok: true,
+    headers: new Headers(),
     json: async () =>
       options?.method
         ? {}
@@ -67,6 +68,7 @@ it('does not cache a failed write or replace existing data', async () => {
     'fetch',
     vi.fn(async (_url: string, options?: RequestInit) => ({
       ok: !options?.method,
+      headers: new Headers(),
       status: 500,
       json: async () => [
         { id: 1, userId: 1, title: 'Unchanged', body: 'Body' },

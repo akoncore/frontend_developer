@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#34533d" />
+    <title>Folio — Offline</title>
+    <link rel="stylesheet" href="/offline.css" />
+    <script src="/offline-retry.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <a class="brand" href="/">folio.</a>
+      <p class="label">FOLIO OFFLINE</p>
+      <h1>A little pause.<br />Your stories can wait.</h1>
+      <p id="message" role="status">
+        This page is not saved on your device. You can still browse stories you
+        downloaded earlier.
+      </p>
+      <div class="actions">
+        <button id="retry">Retry connection</button
+        ><a href="/posts">Browse saved stories</a
+        ><a href="/offline">Offline help</a>
+      </div>
+    </main>
+  </body>
+</html>

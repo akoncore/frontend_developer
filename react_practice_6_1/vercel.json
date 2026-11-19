@@ -1,5 +1,28 @@
 {
   "rewrites": [
-    { "source": "/((?!assets/|data/).*)", "destination": "/index.html" }
+    {
+      "source": "/((?!assets/|data/|icons/|sw\\.js$|manifest\\.json$|offline\\.html$|offline-retry\\.js$|offline\\.css$|favicon\\.svg$|icons\\.svg$).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        { "key": "Service-Worker-Allowed", "value": "/" }
+      ]
+    },
+    {
+      "source": "/manifest.json",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    },
+    {
+      "source": "/index.html",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    }
   ]
 }
