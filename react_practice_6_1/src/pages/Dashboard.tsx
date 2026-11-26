@@ -13,7 +13,7 @@ function breakdown(posts: Post[], getKey: (p: Post) => string) {
 }
 export default function Dashboard() {
   const [status, setStatus] = useState('all');
-  const { data, loading, error } = useAllPosts();
+  const { data, loading, error, retry } = useAllPosts();
   const posts = (data ?? []).filter(
     (p) => status === 'all' || p.status === status,
   );
@@ -51,7 +51,7 @@ export default function Dashboard() {
       {loading ? (
         <LoadingState />
       ) : error ? (
-        <ErrorState message={error} />
+        <ErrorState message={error} onRetry={retry} />
       ) : (
         <>
           <div className="stat-grid">

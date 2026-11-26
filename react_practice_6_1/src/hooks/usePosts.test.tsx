@@ -1,13 +1,14 @@
 import { afterEach, expect, it, vi } from 'vitest';
 import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { Provider } from 'react-redux';
+import { createAppStore } from '../store';
 import type { ReactNode } from 'react';
 import { usePosts } from './usePosts';
 afterEach(() => {
   cleanup();
   vi.unstubAllGlobals();
 });
-it('does not let a slow old search replace a newer result', async () => {
+it('uses the latest search with one shared list request', async () => {
   const pending: { finish: () => void; signal: AbortSignal }[] = [];
   const data = ['Old', 'New'].map((title, index) => ({
     id: index + 1,
@@ -36,11 +37,9 @@ it('does not let a slow old search replace a newer result', async () => {
         }),
     ),
   );
-  const client = new QueryClient({
-    defaultOptions: { queries: { retry: false } },
-  });
+  const store = createAppStore();
   const wrapper = ({ children }: { children: ReactNode }) => (
-    <QueryClientProvider client={client}>{children}</QueryClientProvider>
+    <Provider store={store}>{children}</Provider>
   );
   const { result, rerender } = renderHook(
     ({ search }) =>
@@ -56,13 +55,11 @@ it('does not let a slow old search replace a newer result', async () => {
   );
   await waitFor(() => expect(pending).toHaveLength(1));
   rerender({ search: 'New' });
-  await waitFor(() => expect(pending).toHaveLength(2));
-  expect(pending[0].signal.aborted).toBe(true);
-  await act(async () => pending[1].finish());
+  expect(pending).toHaveLength(1);
+  await act(async () => pending[0].finish());
   await waitFor(() =>
     expect(result.current.data?.results[0].title).toBe('New'),
   );
   await act(async () => pending[0].finish());
   expect(result.current.data?.results[0].title).toBe('New');
-  client.clear();
 });

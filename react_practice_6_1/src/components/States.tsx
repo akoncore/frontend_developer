@@ -9,14 +9,20 @@ export function LoadingState({ text = 'Loading stories…' }: { text?: string })
     </div>
   );
 }
-export function ErrorState({ message }: { message: string }) {
+export function ErrorState({
+  message,
+  onRetry,
+}: {
+  message: string;
+  onRetry?: () => void;
+}) {
   if (message === OFFLINE_MESSAGE) return <Offline />;
   return (
     <div className="state-message state-error" role="alert">
       <h3>Something went wrong</h3>
       <p>{message}</p>
       <button
-        onClick={() => window.location.reload()}
+        onClick={onRetry ?? (() => window.location.reload())}
         className="button button-dark"
       >
         Try again

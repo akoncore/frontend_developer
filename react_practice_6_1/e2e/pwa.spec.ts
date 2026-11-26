@@ -162,7 +162,14 @@ test('explicit update activates the waiting worker, removes old caches and retai
           (await navigator.serviceWorker.getRegistration())?.waiting?.state,
       ),
     ).toBe('installed');
-    await page.getByRole('button', { name: 'Update now' }).click();
+    await Promise.all([
+      page.waitForEvent(
+        'framenavigated',
+        (frame) => frame === page.mainFrame(),
+      ),
+      page.getByRole('button', { name: 'Update now' }).click(),
+    ]);
+    await page.waitForLoadState('domcontentloaded');
     await expect
       .poll(() =>
         page.evaluate(async () =>
@@ -171,6 +178,13 @@ test('explicit update activates the waiting worker, removes old caches and retai
       )
       .toBe(true);
     await expect(page.locator('.post-card').first()).toBeVisible();
+    // The new cache exists during install, before activate finishes cleanup.
+    await expect
+      .poll(() => page.evaluate(() => caches.keys()))
+      .not.toContain(oldShell);
+    await expect
+      .poll(() => page.evaluate(() => caches.keys()))
+      .not.toContain('folio-shell-obsolete');
     const keys = await page.evaluate(() => caches.keys());
     expect(keys).not.toContain(oldShell);
     expect(keys).not.toContain('folio-shell-obsolete');
@@ -225,6 +239,54 @@ test('runtime cache is bounded, expires entries and excludes authentication and 
   );
   expect(status).toBe(503);
   expect(await hasData(page, `${api}/66`)).toBe(false);
+});
+
+test('Redux shares saved state across routes and preserves URL search, filters and pagination', async ({
+  page,
+}) => {
+  await ready(page);
+  const first = page.locator('.post-card').first();
+  const href = await first
+    .getByRole('link', { name: /Read story/ })
+    .getAttribute('href');
+  await first
+    .getByRole('button', { name: 'Save for this session', exact: true })
+    .click();
+  await expect(
+    page.getByText('Saved for this session: 1', { exact: true }),
+  ).toBeVisible();
+  await first.getByRole('link', { name: /Read story/ }).click();
+  await expect(page).toHaveURL(new RegExp(`${href}$`));
+  await expect(
+    page.getByRole('button', { name: 'Saved for this session', exact: true }),
+  ).toHaveAttribute('aria-pressed', 'true');
+  await page.getByRole('link', { name: 'All stories' }).click();
+  await page.getByRole('button', { name: 'Next' }).click();
+  await expect(page).toHaveURL(/page=2/);
+  await page
+    .getByRole('searchbox', { name: 'Search stories' })
+    .fill('impossible-search-no-results');
+  await expect(page).toHaveURL(/search=impossible-search-no-results/);
+  await expect(page).not.toHaveURL(/page=2/);
+  await expect(
+    page.getByRole('heading', { name: 'Nothing here yet' }),
+  ).toBeVisible();
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await page
+    .getByRole('combobox', { name: 'Category', exact: true })
+    .selectOption('design');
+  await page
+    .getByRole('combobox', { name: 'Sort by', exact: true })
+    .selectOption('title');
+  await expect(page).toHaveURL(/category=design.*sort=title/);
+  await expect(page.locator('.post-card').first()).toBeVisible();
+  await page.reload();
+  await expect(
+    page.getByRole('combobox', { name: 'Category', exact: true }),
+  ).toHaveValue('design');
+  await expect(
+    page.getByRole('combobox', { name: 'Sort by', exact: true }),
+  ).toHaveValue('title');
 });
 
 test('all main pages fit 320px portrait and narrow landscape; mobile menu works', async ({

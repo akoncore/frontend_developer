@@ -141,7 +141,7 @@ function CommunityContent({ uid }: { uid: string | null }) {
       {query.isPending ? (
         <LoadingState />
       ) : query.error ? (
-        <ErrorState message={query.error.message} />
+        <ErrorState message={query.error.message} onRetry={query.refetch} />
       ) : !posts.length ? (
         <EmptyState message="Publish the first story." />
       ) : (

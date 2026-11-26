@@ -84,3 +84,21 @@ export async function deleteCommunityPost(
   await request('/' + id, { method: 'DELETE' });
   edits(uid).set(id, null);
 }
+
+export async function getCommunityPost(
+  id: string,
+  signal?: AbortSignal,
+): Promise<CommunityPost> {
+  if (!/^[1-9]\d*$/.test(id)) throw new Error('Invalid story ID.');
+  const data = (await fetchPublicJSON(
+    `${API_URL}/${id}`,
+    signal,
+  )) as CommunityPost;
+  if (
+    typeof data.id !== 'number' ||
+    typeof data.title !== 'string' ||
+    typeof data.body !== 'string'
+  )
+    throw new Error('Invalid story response.');
+  return data;
+}
