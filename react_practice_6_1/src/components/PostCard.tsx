@@ -1,3 +1,4 @@
+import SaveStoryButton from './SaveStoryButton';
 import { Link } from 'react-router-dom';
 import type { Post } from '../types/blog';
 import ImageSlot from './ImageSlot';
@@ -31,6 +32,7 @@ export default function PostCard({
         <h3>
           <Link to={`/posts/${post.id}`}>{post.title}</Link>
         </h3>
+        <SaveStoryButton id={post.id} />
         <p>{post.body.slice(0, 130)}…</p>
         <div className="post-card__bottom">
           <span>By {post.author_info.first_name}</span>

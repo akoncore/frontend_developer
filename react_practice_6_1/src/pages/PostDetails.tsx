@@ -1,10 +1,11 @@
+import SaveStoryButton from '../components/SaveStoryButton';
 import { Link, useParams } from 'react-router-dom';
 import ImageSlot from '../components/ImageSlot';
 import { ErrorState, LoadingState } from '../components/States';
 import { usePost } from '../hooks/usePosts';
 export default function PostDetails() {
   const { id = '' } = useParams();
-  const { data: post, loading, error } = usePost(id);
+  const { data: post, loading, error, retry } = usePost(id);
   if (loading)
     return (
       <div className="container">
@@ -14,7 +15,7 @@ export default function PostDetails() {
   if (error)
     return (
       <div className="container">
-        <ErrorState message={error} />
+        <ErrorState message={error} onRetry={retry} />
       </div>
     );
   if (!post)
@@ -50,6 +51,7 @@ export default function PostDetails() {
           {post.category?.name ?? 'Uncategorized'} / {post.status.toUpperCase()}
         </span>
         <h1>{post.title}</h1>
+        <SaveStoryButton id={post.id} />
         <p>{post.body.slice(0, 180)}…</p>
         <div className="detail-author">
           <div className="avatar-placeholder">

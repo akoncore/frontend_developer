@@ -1,6 +1,7 @@
 import { afterEach, expect, it, vi } from 'vitest';
 import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { Provider } from 'react-redux';
+import { createAppStore } from '../store';
 import type { ReactNode } from 'react';
 import { useCommunity } from './useCommunity';
 afterEach(() => {
@@ -17,11 +18,9 @@ it('refetches after create/update/delete and isolates each account', async () =>
         : [{ id: 1, userId: 1, title: 'Original', body: 'Body' }],
   }));
   vi.stubGlobal('fetch', fetchMock);
-  const client = new QueryClient({
-    defaultOptions: { queries: { retry: false, staleTime: 60_000 } },
-  });
+  const store = createAppStore();
   const wrapper = ({ children }: { children: ReactNode }) => (
-    <QueryClientProvider client={client}>{children}</QueryClientProvider>
+    <Provider store={store}>{children}</Provider>
   );
   const { result, rerender } = renderHook(({ uid }) => useCommunity(uid), {
     wrapper,
@@ -61,7 +60,6 @@ it('refetches after create/update/delete and isolates each account', async () =>
   expect(
     fetchMock.mock.calls.filter(([, options]) => !options?.method).length,
   ).toBeGreaterThanOrEqual(6);
-  client.clear();
 });
 it('does not cache a failed write or replace existing data', async () => {
   vi.stubGlobal(
@@ -75,11 +73,9 @@ it('does not cache a failed write or replace existing data', async () => {
       ],
     })),
   );
-  const client = new QueryClient({
-    defaultOptions: { queries: { retry: false } },
-  });
+  const store = createAppStore();
   const wrapper = ({ children }: { children: ReactNode }) => (
-    <QueryClientProvider client={client}>{children}</QueryClientProvider>
+    <Provider store={store}>{children}</Provider>
   );
   const { result } = renderHook(() => useCommunity('failure-account'), {
     wrapper,
@@ -94,5 +90,4 @@ it('does not cache a failed write or replace existing data', async () => {
     ).rejects.toThrow('500');
   });
   expect(result.current.query.data![0].title).toBe('Unchanged');
-  client.clear();
 });

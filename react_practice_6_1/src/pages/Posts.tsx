@@ -1,3 +1,8 @@
+import { useMemo } from 'react';
+import { useDebouncedValue } from '../hooks/useDebouncedValue';
+import { useAuth } from '../hooks/useAuth';
+import { useAppSelector } from '../store/hooks';
+import { selectSavedCount } from '../store/selectors';
 import { useSearchParams } from 'react-router-dom';
 import PostCard from '../components/PostCard';
 import { EmptyState, ErrorState, LoadingState } from '../components/States';
@@ -14,6 +19,12 @@ const categories = [
 ];
 export default function Posts() {
   const [params, setParams] = useSearchParams();
+  const { user } = useAuth();
+  const savedCount = useAppSelector((state) =>
+    selectSavedCount(state, user?.uid ?? null),
+  );
+  const search = params.get('search') ?? '';
+  const debouncedSearch = useDebouncedValue(search);
   const rawPage = Number(params.get('page'));
   const filters: PostFilters = {
     search: params.get('search') ?? '',
@@ -23,7 +34,12 @@ export default function Posts() {
     page: Number.isSafeInteger(rawPage) && rawPage > 0 ? rawPage : 1,
     limit: 9,
   };
-  const { data, loading, error } = usePosts(filters);
+  const { category, status, sort, page, limit } = filters;
+  const queryFilters = useMemo(
+    () => ({ search: debouncedSearch, category, status, sort, page, limit }),
+    [debouncedSearch, category, status, sort, page, limit],
+  );
+  const { data, loading, error, retry } = usePosts(queryFilters);
   function update(name: string, value: string) {
     setParams((previous) => {
       const next = new URLSearchParams(previous);
@@ -93,6 +109,7 @@ export default function Posts() {
           </select>
         </label>
       </div>
+      <p aria-live="polite">Saved for this session: {savedCount}</p>
       <div className="results-bar">
         <span>
           {loading ? 'Finding stories…' : `${data?.count ?? 0} stories found`}
@@ -104,7 +121,7 @@ export default function Posts() {
       {loading ? (
         <LoadingState />
       ) : error ? (
-        <ErrorState message={error} />
+        <ErrorState message={error} onRetry={retry} />
       ) : !data?.results.length ? (
         <EmptyState message="Try a different search, status, or category." />
       ) : (

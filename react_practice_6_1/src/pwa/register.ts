@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from 'react';
-import { queryClient } from '../services/queryClient';
+import { refreshData } from '../store/refresh';
 
 type State = {
   ready: boolean;
@@ -42,7 +42,7 @@ export async function registerPwa() {
     setState({ ready: true });
     // Reload every old tab after the accepted update; initial claim needs no reload.
     if (controlled) window.location.reload();
-    else void queryClient.invalidateQueries();
+    else void refreshData();
     controlled = true;
   });
   try {

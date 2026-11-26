@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { useQueryClient } from '@tanstack/react-query';
+import { refreshData } from '../store/refresh';
 import { useOnline } from '../hooks/useOnline';
 import { useDataSource } from '../services/publicData';
 import { applyUpdate, usePwa } from '../pwa/register';
@@ -12,7 +12,6 @@ interface InstallPrompt extends Event {
 export default function PwaStatus() {
   const online = useOnline();
   const { pathname } = useLocation();
-  const client = useQueryClient();
   const pwa = usePwa();
   const [install, setInstall] = useState<InstallPrompt | null>(null);
   const [help, setHelp] = useState(false);
@@ -84,7 +83,7 @@ export default function PwaStatus() {
           <button
             className="clear-button"
             disabled={!online}
-            onClick={() => void client.invalidateQueries()}
+            onClick={() => void refreshData()}
           >
             Refresh data
           </button>

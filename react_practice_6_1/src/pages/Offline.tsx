@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useQueryClient } from '@tanstack/react-query';
+import { refreshData } from '../store/refresh';
 export default function Offline() {
-  const client = useQueryClient();
   const [checking, setChecking] = useState(false);
   const [message, setMessage] = useState(
     'This page or its data has not been saved on this device yet. Previously downloaded stories are still available.',
@@ -19,7 +18,7 @@ export default function Offline() {
         },
       );
       if (!response.ok) throw new Error('unavailable');
-      await client.invalidateQueries();
+      await refreshData();
       if (window.location.pathname === '/offline')
         window.location.assign('/posts');
       else window.location.reload();

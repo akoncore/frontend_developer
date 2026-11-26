@@ -18,6 +18,10 @@ export async function getPosts(
 ): Promise<PaginatedPosts> {
   const all = await getAllPosts(signal);
   if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+  return filterPosts(all, filters);
+}
+
+export function filterPosts(all: Post[], filters: PostFilters): PaginatedPosts {
   const query = filters.search.toLocaleLowerCase().trim();
   const matched = all.filter((post) => {
     const searchable = [
